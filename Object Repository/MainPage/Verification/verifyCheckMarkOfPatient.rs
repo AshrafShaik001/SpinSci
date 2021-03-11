@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verifyCheckMarkOfPatient</name>
+   <tag></tag>
+   <elementGuidId>758f46ff-4390-4215-9a52-eb6b0fe40510</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tbody[@class=&quot;ant-table-tbody&quot;])[1]/tr/td/b[text()=&quot;${patient_name}&quot;]/ancestor::tr/td[4]//span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

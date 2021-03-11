@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>getTableRowsBasedonPatientName</name>
+   <tag></tag>
+   <elementGuidId>252ed7d8-3c47-4856-b57b-062165f8b752</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tbody[@class=&quot;ant-table-tbody&quot;])[1]/tr/td/b[text()=&quot;${patient_name}&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

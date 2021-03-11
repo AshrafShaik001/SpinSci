@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>getAddressOfPatient</name>
+   <tag></tag>
+   <elementGuidId>0e952d4b-7235-4323-8f04-562eb08ce59a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tbody[@class=&quot;ant-table-tbody&quot;])[1]/tr/td/b[text()=&quot;${patient_name}&quot;]/ancestor::tr/td[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

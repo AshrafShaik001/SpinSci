@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>getDOBOfPatient</name>
+   <tag></tag>
+   <elementGuidId>be32ff2c-0985-4fd3-b6b0-ca05a2100ff6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tbody[@class=&quot;ant-table-tbody&quot;])[1]/tr/td/b[text()=&quot;${patient_name}&quot;]/ancestor::tr/td[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

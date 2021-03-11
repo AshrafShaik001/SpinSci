@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>callerIdTabName</name>
+   <tag></tag>
+   <elementGuidId>88bcc24f-d33d-47b1-98bc-44f3ed403819</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.p-verification__top-item-note</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@class=&quot;p-verification__top-item-note&quot;])[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

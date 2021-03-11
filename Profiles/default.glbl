@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://ccw.rndspinsci.com/'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>defaultWaitTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[]</initValue>
+      <name>screenshorts</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'6082719000'</initValue>
+      <name>patientCallerId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4698991226'</initValue>
+      <name>patientCalledTo</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
