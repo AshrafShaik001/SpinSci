@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ID_05 Display upcoming appointments card in the Patient Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e45927d0-b58b-4e9f-9af1-552363f7cc68</testCaseGuid>
+</TestCaseEntity>

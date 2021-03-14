@@ -1,0 +1,60 @@
+1
+00:00:00,081 --> 00:00:00,081
+1. patientCallerId = "6082719000"
+
+2
+00:00:00,082 --> 00:00:00,082
+5. patientCalledTo = "4698991226"
+
+3
+00:00:00,082 --> 00:00:00,082
+9. soucePatientName = "Cadence,Anna"
+
+4
+00:00:00,082 --> 00:00:00,083
+13. sourcePatientDOB = "09-09-1983"
+
+5
+00:00:00,083 --> 00:00:00,083
+17. subjectPatientName = "Cadence,Anna"
+
+6
+00:00:00,083 --> 00:00:00,083
+21. subjectPatientDOB = "09-09-1983"
+
+7
+00:00:00,084 --> 00:00:00,084
+25. pharmacyName = "EMC Prescription Pharmacy South"
+
+8
+00:00:00,084 --> 00:00:00,084
+29. pharmacyNumber = "555-555-5555"
+
+9
+00:00:00,085 --> 00:00:06,164
+33. mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)
+
+10
+00:00:06,164 --> 00:00:11,099
+37. mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)
+
+11
+00:00:11,100 --> 00:00:17,311
+41. mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)
+
+12
+00:00:17,311 --> 00:00:19,816
+45. cards.PharmaciesCard.verifyPatientPharmacyDetails(pharmacyName, pharmacyNumber)
+
+13
+00:00:19,816 --> 00:00:22,165
+49. cards.PharmaciesCard.clickOnGearIcon()
+
+14
+00:00:22,165 --> 00:00:23,796
+53. cards.PharmaciesCard.clickOnMoreDetails()
+
+15
+00:00:23,796 --> 00:00:27,606
+1. refresh()
+

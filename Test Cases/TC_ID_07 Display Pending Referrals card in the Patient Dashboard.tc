@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ID_07 Display Pending Referrals card in the Patient Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>597d5a33-df2c-4c85-958d-87d280360b51</testCaseGuid>
+</TestCaseEntity>

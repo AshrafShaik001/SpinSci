@@ -1,0 +1,126 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Test Suite,Chrome 89.0.4389.82,,,2021-03-14 01:55:22,2021-03-14 02:00:14,4m - 51.341s,PASSED
+,,,,,,,
+Test Cases/TC_ID_07 Display Pending Referrals card in the Patient Dashboard,Chrome 89.0.4389.82,,,2021-03-14 01:55:29,2021-03-14 01:56:15,46.328s,PASSED
+"patientCallerId = ""6082719000""",Chrome 89.0.4389.82,,,2021-03-14 01:55:30,2021-03-14 01:55:30,0.009s,PASSED
+"patientCalledTo = ""4698991226""",Chrome 89.0.4389.82,,,2021-03-14 01:55:30,2021-03-14 01:55:30,0.001s,PASSED
+"soucePatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:55:30,2021-03-14 01:55:30,0.001s,PASSED
+"sourcePatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:55:30,2021-03-14 01:55:30,0.001s,PASSED
+"subjectPatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:55:30,2021-03-14 01:55:30,0.001s,PASSED
+"subjectPatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:55:30,2021-03-14 01:55:30,0.001s,PASSED
+"upComingReferrals = ""1""",Chrome 89.0.4389.82,,,2021-03-14 01:55:30,2021-03-14 01:55:30,0.002s,PASSED
+"closedReferrals = ""13""",Chrome 89.0.4389.82,,,2021-03-14 01:55:30,2021-03-14 01:55:30,0.002s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",Chrome 89.0.4389.82,,,2021-03-14 01:55:30,2021-03-14 01:55:38,8.891s,PASSED
+"mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:55:38,2021-03-14 01:55:44,5.961s,PASSED
+"mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:55:44,2021-03-14 01:55:50,5.877s,PASSED
+cards.ReferralsCard.verifyUpcomingReferrals(upComingReferrals),Chrome 89.0.4389.82,,,2021-03-14 01:55:50,2021-03-14 01:55:53,2.632s,PASSED
+cards.ReferralsCard.verifyClosedReferrals(closedReferrals),Chrome 89.0.4389.82,,,2021-03-14 01:55:53,2021-03-14 01:55:55,2.010s,PASSED
+cards.ReferralsCard.clickOnGearIcon(),Chrome 89.0.4389.82,,,2021-03-14 01:55:55,2021-03-14 01:55:58,2.631s,PASSED
+cards.ReferralsCard.clickOnMoreDetails(),Chrome 89.0.4389.82,,,2021-03-14 01:55:58,2021-03-14 01:55:59,1.160s,PASSED
+"tabs.ReferralsTab.verifyReferral(""1150"", ""Phoenix, Physician, MD"", ""Kevin Walker"", ""Consultation"", ""Pending"")",Chrome 89.0.4389.82,,,2021-03-14 01:55:59,2021-03-14 01:56:07,8.750s,PASSED
+Start listener action : closeBrowserBeforeTestSuire,Chrome 89.0.4389.82,,,2021-03-14 01:56:12,2021-03-14 01:56:13,0.761s,PASSED
+Video,Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:15,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call,Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:57:12,56.901s,PASSED
+"patientCallerId = ""6082719000""",Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:15,0.001s,PASSED
+"patientCalledTo = ""4698991226""",Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:15,0.000s,PASSED
+"soucePatientName = ""Cadence,Sam""",Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:15,0.000s,PASSED
+"sourcePatientDOB = ""09-12-1949""",Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:15,0.001s,PASSED
+"subjectPatientName = ""Cadence,Alyssa""",Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:15,0.001s,PASSED
+"subjectPatientDOB = ""03-24-1978""",Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:15,0.001s,PASSED
+"subjectPatientlocation = ""VERONA,Wisconsin,53593""",Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:15,0.001s,PASSED
+"patientContactNumber = ""(608) 271-9000""",Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:15,0.001s,PASSED
+"subjectPatientCardTitle = ""Subject is a Patient (42 year old Female)""",Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:15,0.000s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",Chrome 89.0.4389.82,,,2021-03-14 01:56:15,2021-03-14 01:56:22,6.590s,PASSED
+"mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:56:22,2021-03-14 01:56:29,6.558s,PASSED
+"mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB, subjectPatientlocation)",Chrome 89.0.4389.82,,,2021-03-14 01:56:29,2021-03-14 01:56:36,7.751s,PASSED
+"mainPage.Patient.verifyPatientDetails(subjectPatientCardTitle, subjectPatientName, ""1978-03-24"", patientContactNumber, subjectPatientlocation)",Chrome 89.0.4389.82,,,2021-03-14 01:56:36,2021-03-14 01:57:05,28.485s,PASSED
+Start listener action : closeBrowserBeforeTestSuire,Chrome 89.0.4389.82,,,2021-03-14 01:57:10,2021-03-14 01:57:10,0.283s,PASSED
+Video,Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:12,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_ID_11 Display Patient Care Team card (PCP) details in the Patient Dashboard,Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:45,32.878s,PASSED
+"patientCallerId = ""6082719000""",Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:12,0.001s,PASSED
+"patientCalledTo = ""4698991226""",Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:12,0.001s,PASSED
+"soucePatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:12,0.001s,PASSED
+"sourcePatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:12,0.000s,PASSED
+"subjectPatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:12,0.000s,PASSED
+"subjectPatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:12,0.001s,PASSED
+"pcpName = ""Family Medicine, Physician, MD""",Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:12,0.001s,PASSED
+"pcpCenter = """"",Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:12,0.000s,PASSED
+"pcpDept = ""Cardio""",Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:12,0.000s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",Chrome 89.0.4389.82,,,2021-03-14 01:57:12,2021-03-14 01:57:19,6.516s,PASSED
+"mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:57:19,2021-03-14 01:57:25,6.164s,PASSED
+"mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:57:25,2021-03-14 01:57:33,7.615s,PASSED
+"cards.PatientCareTeamCard.verifyPcpDetails(pcpName, pcpCenter, pcpDept)",Chrome 89.0.4389.82,,,2021-03-14 01:57:33,2021-03-14 01:57:38,5.075s,PASSED
+Start listener action : closeBrowserBeforeTestSuire,Chrome 89.0.4389.82,,,2021-03-14 01:57:43,2021-03-14 01:57:43,0.294s,PASSED
+Video,Chrome 89.0.4389.82,,,2021-03-14 01:57:45,2021-03-14 01:57:45,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_ID_05 Display upcoming appointments card in the Patient Dashboard,Chrome 89.0.4389.82,,,2021-03-14 01:57:45,2021-03-14 01:58:29,44.306s,PASSED
+"patientCallerId = ""2158821126""",Chrome 89.0.4389.82,,,2021-03-14 01:57:45,2021-03-14 01:57:45,0.001s,PASSED
+"patientCalledTo = ""4698991226""",Chrome 89.0.4389.82,,,2021-03-14 01:57:45,2021-03-14 01:57:45,0.001s,PASSED
+"soucePatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:57:45,2021-03-14 01:57:45,0.001s,PASSED
+"sourcePatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:57:45,2021-03-14 01:57:45,0.001s,PASSED
+"subjectPatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:57:45,2021-03-14 01:57:45,0.000s,PASSED
+"subjectPatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:57:45,2021-03-14 01:57:45,0.000s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",Chrome 89.0.4389.82,,,2021-03-14 01:57:45,2021-03-14 01:57:52,6.462s,PASSED
+"mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:57:52,2021-03-14 01:57:58,6.373s,PASSED
+"mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:57:58,2021-03-14 01:58:05,6.895s,PASSED
+cards.AppoinmentCard.clickOnGearIcon(),Chrome 89.0.4389.82,,,2021-03-14 01:58:05,2021-03-14 01:58:08,3.289s,PASSED
+cards.AppoinmentCard.clickOnMoreDetails(),Chrome 89.0.4389.82,,,2021-03-14 01:58:08,2021-03-14 01:58:09,1.038s,PASSED
+tabs.AppoinmentsTab.switchToNoShowsAppoinments(),Chrome 89.0.4389.82,,,2021-03-14 01:58:09,2021-03-14 01:58:11,1.352s,PASSED
+"tabs.AppoinmentsTab.verifyAppoinment(""7/21/2020"", ""EMH PHX CTH DEPT"", ""Coordinator Phoenix, RN"", ""TRANSPLANT EVALUATION"", ""No Show"", ""4:30 PM"")",Chrome 89.0.4389.82,,,2021-03-14 01:58:11,2021-03-14 01:58:22,11.398s,PASSED
+Start listener action : closeBrowserBeforeTestSuire,Chrome 89.0.4389.82,,,2021-03-14 01:58:27,2021-03-14 01:58:27,0.295s,PASSED
+Video,Chrome 89.0.4389.82,,,2021-03-14 01:58:29,2021-03-14 01:58:29,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_ID_09 Display Pending bills card in the Patient Dashboard,Chrome 89.0.4389.82,,,2021-03-14 01:58:29,2021-03-14 01:59:06,36.563s,PASSED
+"patientCallerId = ""6082719000""",Chrome 89.0.4389.82,,,2021-03-14 01:58:29,2021-03-14 01:58:29,0.000s,PASSED
+"patientCalledTo = ""4698991226""",Chrome 89.0.4389.82,,,2021-03-14 01:58:29,2021-03-14 01:58:29,0.000s,PASSED
+"soucePatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:58:29,2021-03-14 01:58:29,0.001s,PASSED
+"sourcePatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:58:29,2021-03-14 01:58:29,0.000s,PASSED
+"subjectPatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:58:29,2021-03-14 01:58:30,0.001s,PASSED
+"subjectPatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:58:30,2021-03-14 01:58:30,0.000s,PASSED
+"bills = ""16""",Chrome 89.0.4389.82,,,2021-03-14 01:58:30,2021-03-14 01:58:30,0.001s,PASSED
+"patientBalance = ""19413.11""",Chrome 89.0.4389.82,,,2021-03-14 01:58:30,2021-03-14 01:58:30,0.000s,PASSED
+"insuranceBalance = ""405.57""",Chrome 89.0.4389.82,,,2021-03-14 01:58:30,2021-03-14 01:58:30,0.000s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",Chrome 89.0.4389.82,,,2021-03-14 01:58:30,2021-03-14 01:58:36,6.322s,PASSED
+"mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:58:36,2021-03-14 01:58:42,5.942s,PASSED
+"mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:58:42,2021-03-14 01:58:48,6.314s,PASSED
+"cards.BillingInformationCard.verifyPatientBillingDetails(bills, patientBalance, insuranceBalance)",Chrome 89.0.4389.82,,,2021-03-14 01:58:48,2021-03-14 01:58:55,6.578s,PASSED
+cards.BillingInformationCard.clickOnGearIcon(),Chrome 89.0.4389.82,,,2021-03-14 01:58:55,2021-03-14 01:58:57,2.807s,PASSED
+cards.BillingInformationCard.clickOnMoreDetails(),Chrome 89.0.4389.82,,,2021-03-14 01:58:57,2021-03-14 01:58:59,1.137s,PASSED
+Start listener action : closeBrowserBeforeTestSuire,Chrome 89.0.4389.82,,,2021-03-14 01:59:04,2021-03-14 01:59:04,0.286s,PASSED
+Video,Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:06,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_ID_16 Display Additional information card (PCP) details in the Patient Dashboard,Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:37,31.001s,PASSED
+"patientCallerId = ""6082719000""",Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:06,0.001s,PASSED
+"patientCalledTo = ""4698991226""",Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:06,0.001s,PASSED
+"soucePatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:06,0.000s,PASSED
+"sourcePatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:06,0.000s,PASSED
+"subjectPatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:06,0.000s,PASSED
+"subjectPatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:06,0.001s,PASSED
+"name = ""Smith, John""",Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:06,0.000s,PASSED
+"contactNumber = ""608-271-9000""",Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:06,0.001s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",Chrome 89.0.4389.82,,,2021-03-14 01:59:06,2021-03-14 01:59:12,6.038s,PASSED
+"mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:59:12,2021-03-14 01:59:19,6.538s,PASSED
+"mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:59:19,2021-03-14 01:59:26,7.282s,PASSED
+"cards.EmergencyContactInformationCard.verifyEmergencyContactDetails(name, contactNumber)",Chrome 89.0.4389.82,,,2021-03-14 01:59:26,2021-03-14 01:59:30,3.670s,PASSED
+Start listener action : closeBrowserBeforeTestSuire,Chrome 89.0.4389.82,,,2021-03-14 01:59:35,2021-03-14 01:59:35,0.296s,PASSED
+Video,Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 01:59:37,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_ID_14 Display Pharmacies card in the Patient Dashboard,Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 02:00:14,36.557s,PASSED
+"patientCallerId = ""6082719000""",Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 01:59:37,0.001s,PASSED
+"patientCalledTo = ""4698991226""",Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 01:59:37,0.000s,PASSED
+"soucePatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 01:59:37,0.001s,PASSED
+"sourcePatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 01:59:37,0.001s,PASSED
+"subjectPatientName = ""Cadence,Anna""",Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 01:59:37,0.000s,PASSED
+"subjectPatientDOB = ""09-09-1983""",Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 01:59:37,0.000s,PASSED
+"pharmacyName = ""EMC Prescription Pharmacy South""",Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 01:59:37,0.001s,PASSED
+"pharmacyNumber = ""555-555-5555""",Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 01:59:37,0.000s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",Chrome 89.0.4389.82,,,2021-03-14 01:59:37,2021-03-14 01:59:43,6.046s,PASSED
+"mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:59:43,2021-03-14 01:59:50,6.672s,PASSED
+"mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)",Chrome 89.0.4389.82,,,2021-03-14 01:59:50,2021-03-14 01:59:57,7.367s,PASSED
+"cards.PharmaciesCard.verifyPatientPharmacyDetails(pharmacyName, pharmacyNumber)",Chrome 89.0.4389.82,,,2021-03-14 01:59:57,2021-03-14 02:00:02,4.702s,PASSED
+cards.PharmaciesCard.clickOnGearIcon(),Chrome 89.0.4389.82,,,2021-03-14 02:00:02,2021-03-14 02:00:05,2.986s,PASSED
+cards.PharmaciesCard.clickOnMoreDetails(),Chrome 89.0.4389.82,,,2021-03-14 02:00:05,2021-03-14 02:00:06,1.247s,PASSED
+Start listener action : closeBrowserBeforeTestSuire,Chrome 89.0.4389.82,,,2021-03-14 02:00:11,2021-03-14 02:00:11,0.302s,PASSED
+Video,Chrome 89.0.4389.82,,,2021-03-14 02:00:14,2021-03-14 02:00:14,0.000s,PASSED

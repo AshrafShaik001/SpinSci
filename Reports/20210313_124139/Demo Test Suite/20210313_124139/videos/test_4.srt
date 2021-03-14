@@ -1,0 +1,32 @@
+1
+00:00:00,102 --> 00:00:00,103
+1. patientCallerId = "2158821126"
+
+2
+00:00:00,103 --> 00:00:00,104
+5. patientCalledTo = "4698991226"
+
+3
+00:00:00,104 --> 00:00:00,105
+9. soucePatientName = "Cadence,Anna"
+
+4
+00:00:00,106 --> 00:00:00,108
+13. sourcePatientDOB = "09-09-1983"
+
+5
+00:00:00,108 --> 00:00:00,109
+17. subjectPatientName = "Cadence,Anna"
+
+6
+00:00:00,110 --> 00:00:00,111
+21. subjectPatientDOB = "09-09-1983"
+
+7
+00:00:00,111 --> 00:00:00,159
+25. mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)
+
+8
+00:00:00,160 --> 00:00:00,176
+1. refresh()
+

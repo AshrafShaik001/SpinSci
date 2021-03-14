@@ -1,0 +1,44 @@
+1
+00:00:00,116 --> 00:00:00,117
+1. patientCallerId = "6082719000"
+
+2
+00:00:00,117 --> 00:00:00,118
+5. patientCalledTo = "4698991226"
+
+3
+00:00:00,118 --> 00:00:00,119
+9. soucePatientName = "Cadence,Anna"
+
+4
+00:00:00,119 --> 00:00:00,120
+13. sourcePatientDOB = "09-09-1983"
+
+5
+00:00:00,120 --> 00:00:00,121
+17. subjectPatientName = "Cadence,Anna"
+
+6
+00:00:00,121 --> 00:00:00,122
+21. subjectPatientDOB = "09-09-1983"
+
+7
+00:00:00,122 --> 00:00:00,124
+25. pcpName = "Family Medicine, Physician, MD"
+
+8
+00:00:00,124 --> 00:00:00,125
+29. pcpCenter = ""
+
+9
+00:00:00,125 --> 00:00:00,126
+33. pcpDept = "Cardio"
+
+10
+00:00:00,127 --> 00:00:00,188
+37. mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)
+
+11
+00:00:00,189 --> 00:00:00,202
+1. refresh()
+

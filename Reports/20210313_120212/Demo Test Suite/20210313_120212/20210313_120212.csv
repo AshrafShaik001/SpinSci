@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Test Suite,,,,2021-03-13 12:02:34,2021-03-13 12:03:22,48.293s,FAILED
+,,,,,,,
+Test Cases/TC_ID_07 Display Pending Referrals card in the Patient Dashboard,,,,2021-03-13 12:03:13,2021-03-13 12:03:15,2.668s,FAILED
+"patientCallerId = ""6082719000""",,,,2021-03-13 12:03:13,2021-03-13 12:03:13,0.010s,PASSED
+"patientCalledTo = ""4698991226""",,,,2021-03-13 12:03:13,2021-03-13 12:03:13,0.001s,PASSED
+"soucePatientName = ""Cadence,Anna""",,,,2021-03-13 12:03:13,2021-03-13 12:03:13,0.001s,PASSED
+"sourcePatientDOB = ""09-09-1983""",,,,2021-03-13 12:03:13,2021-03-13 12:03:13,0.001s,PASSED
+"subjectPatientName = ""Cadence,Anna""",,,,2021-03-13 12:03:13,2021-03-13 12:03:13,0.002s,PASSED
+"subjectPatientDOB = ""09-09-1983""",,,,2021-03-13 12:03:13,2021-03-13 12:03:13,0.002s,PASSED
+"upComingReferrals = ""1""",,,,2021-03-13 12:03:13,2021-03-13 12:03:13,0.001s,PASSED
+"closedReferrals = ""13""",,,,2021-03-13 12:03:13,2021-03-13 12:03:13,0.001s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",,,,2021-03-13 12:03:13,2021-03-13 12:03:13,0.080s,FAILED
+Start listener action : closeBrowserBeforeTestSuire,,,,2021-03-13 12:03:13,2021-03-13 12:03:13,0.029s,ERROR
+Video,,,,2021-03-13 12:03:15,2021-03-13 12:03:15,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call,,,,2021-03-13 12:03:15,2021-03-13 12:03:18,2.236s,FAILED
+"patientCallerId = ""6082719000""",,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.002s,PASSED
+"patientCalledTo = ""4698991226""",,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.001s,PASSED
+"soucePatientName = ""Cadence,Sam""",,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.002s,PASSED
+"sourcePatientDOB = ""09-12-1949""",,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.004s,PASSED
+"subjectPatientName = ""Cadence,Alyssa""",,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.001s,PASSED
+"subjectPatientDOB = ""03-24-1978""",,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.002s,PASSED
+"subjectPatientlocation = ""VERONA,Wisconsin,53593""",,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.001s,PASSED
+"patientContactNumber = ""(608) 271-9000""",,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.001s,PASSED
+"subjectPatientCardTitle = ""Subject is a Patient (42 year old Female)""",,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.001s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.046s,FAILED
+Start listener action : closeBrowserBeforeTestSuire,,,,2021-03-13 12:03:16,2021-03-13 12:03:16,0.018s,ERROR
+Video,,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_ID_11 Display Patient Care Team card (PCP) details in the Patient Dashboard,,,,2021-03-13 12:03:18,2021-03-13 12:03:20,2.250s,FAILED
+"patientCallerId = ""6082719000""",,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.002s,PASSED
+"patientCalledTo = ""4698991226""",,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.001s,PASSED
+"soucePatientName = ""Cadence,Anna""",,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.001s,PASSED
+"sourcePatientDOB = ""09-09-1983""",,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.001s,PASSED
+"subjectPatientName = ""Cadence,Anna""",,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.001s,PASSED
+"subjectPatientDOB = ""09-09-1983""",,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.001s,PASSED
+"pcpName = ""Family Medicine, Physician, MD""",,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.002s,PASSED
+"pcpCenter = """"",,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.004s,PASSED
+"pcpDept = ""Cardio""",,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.001s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.057s,FAILED
+Start listener action : closeBrowserBeforeTestSuire,,,,2021-03-13 12:03:18,2021-03-13 12:03:18,0.017s,ERROR
+Video,,,,2021-03-13 12:03:20,2021-03-13 12:03:20,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_ID_05 Display upcoming appointments card in the Patient Dashboard,,,,2021-03-13 12:03:20,2021-03-13 12:03:22,2.285s,FAILED
+"patientCallerId = ""2158821126""",,,,2021-03-13 12:03:20,2021-03-13 12:03:20,0.002s,PASSED
+"patientCalledTo = ""4698991226""",,,,2021-03-13 12:03:20,2021-03-13 12:03:20,0.001s,PASSED
+"soucePatientName = ""Cadence,Anna""",,,,2021-03-13 12:03:20,2021-03-13 12:03:20,0.001s,PASSED
+"sourcePatientDOB = ""09-09-1983""",,,,2021-03-13 12:03:20,2021-03-13 12:03:20,0.001s,PASSED
+"subjectPatientName = ""Cadence,Anna""",,,,2021-03-13 12:03:20,2021-03-13 12:03:20,0.001s,PASSED
+"subjectPatientDOB = ""09-09-1983""",,,,2021-03-13 12:03:20,2021-03-13 12:03:20,0.002s,PASSED
+"mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)",,,,2021-03-13 12:03:20,2021-03-13 12:03:20,0.088s,FAILED
+Start listener action : closeBrowserBeforeTestSuire,,,,2021-03-13 12:03:20,2021-03-13 12:03:20,0.009s,ERROR
+Video,,,,2021-03-13 12:03:22,2021-03-13 12:03:22,0.000s,PASSED

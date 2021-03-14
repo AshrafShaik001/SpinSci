@@ -1,0 +1,56 @@
+1
+00:00:00,096 --> 00:00:00,097
+1. patientCallerId = "6082719000"
+
+2
+00:00:00,097 --> 00:00:00,098
+5. patientCalledTo = "4698991226"
+
+3
+00:00:00,098 --> 00:00:00,099
+9. soucePatientName = "Cadence,Sam"
+
+4
+00:00:00,099 --> 00:00:00,100
+13. sourcePatientDOB = "09-12-1949"
+
+5
+00:00:00,100 --> 00:00:00,101
+17. subjectPatientName = "Cadence,Alyssa"
+
+6
+00:00:00,101 --> 00:00:00,102
+21. subjectPatientDOB = "03-24-1978"
+
+7
+00:00:00,102 --> 00:00:00,102
+25. subjectPatientlocation = "VERONA,Wisconsin,53593"
+
+8
+00:00:00,103 --> 00:00:00,103
+29. patientContactNumber = "(608) 271-9000"
+
+9
+00:00:00,104 --> 00:00:00,104
+33. subjectPatientCardTitle = "Subject is a Patient (42 year old Female)"
+
+10
+00:00:00,104 --> 00:00:06,693
+37. mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)
+
+11
+00:00:06,694 --> 00:00:13,251
+41. mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)
+
+12
+00:00:13,252 --> 00:00:21,002
+45. mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB, subjectPatientlocation)
+
+13
+00:00:21,002 --> 00:00:54,500
+49. mainPage.Patient.verifyPatientDetails(subjectPatientCardTitle, subjectPatientName, "1978-03-24", patientContactNumber, subjectPatientlocation)
+
+14
+00:00:54,501 --> 00:00:54,783
+1. refresh()
+

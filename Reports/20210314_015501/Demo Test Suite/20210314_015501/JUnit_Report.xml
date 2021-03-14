@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo Test Suite" time="291.341" tests="7" failures="0" skips="0" errors="0">
+   <testsuite name="Demo Test Suite" tests="7" failures="0" errors="0" time="291.341" skips="0" timestamp="2021-03-14 01:55:22" hostname="apple - 192.168.43.12" id="Test Suites/Demo Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/apple/Documents/GitHub/SpinSci/Reports/20210314_015501/Demo Test Suite/20210314_015501"/>
+         <property name="logFiles" value="/Users/apple/Documents/GitHub/SpinSci/Reports/20210314_015501/Demo Test Suite/20210314_015501/execution0.log"/>
+         <property name="attachments" value="/Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png, /Users/apple/Documents/GitHub/SpinSci/passed.png"/>
+         <property name="hostName" value="apple - 192.168.43.12"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.82"/>
+         <property name="hostAddress" value="192.168.43.12"/>
+         <property name="sessionId" value="8bd3db3d7ee16ae52ab45c9996cbb65e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_ID_07 Display Pending Referrals card in the Patient Dashboard" time="46.328" classname="Test Cases/TC_ID_07 Display Pending Referrals card in the Patient Dashboard" status="PASSED">
+         <system-out><![CDATA[2021-03-14 01:55:29 - [TEST_CASE][PASSED] - Test Cases/TC_ID_07 Display Pending Referrals card in the Patient Dashboard: Test Cases/TC_ID_07 Display Pending Referrals card in the Patient Dashboard
+
+2021-03-14 01:55:30 - [TEST_STEP][PASSED] - patientCallerId = "6082719000": null
+
+2021-03-14 01:55:30 - [TEST_STEP][PASSED] - patientCalledTo = "4698991226": null
+
+2021-03-14 01:55:30 - [TEST_STEP][PASSED] - soucePatientName = "Cadence,Anna": null
+
+2021-03-14 01:55:30 - [TEST_STEP][PASSED] - sourcePatientDOB = "09-09-1983": null
+
+2021-03-14 01:55:30 - [TEST_STEP][PASSED] - subjectPatientName = "Cadence,Anna": null
+
+2021-03-14 01:55:30 - [TEST_STEP][PASSED] - subjectPatientDOB = "09-09-1983": null
+
+2021-03-14 01:55:30 - [TEST_STEP][PASSED] - upComingReferrals = "1": null
+
+2021-03-14 01:55:30 - [TEST_STEP][PASSED] - closedReferrals = "13": null
+
+2021-03-14 01:55:30 - [TEST_STEP][PASSED] - mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo): mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:55:30 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is present
+
+2021-03-14 01:55:30 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is visible
+
+2021-03-14 01:55:31 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is clickable
+
+2021-03-14 01:55:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCallerIdInputBox' is cleared
+
+2021-03-14 01:55:32 - [MESSAGE][PASSED] - Keys '6082719000' sent to object: 'Object Repository/MainPage/patientCallerIdInputBox'
+
+2021-03-14 01:55:32 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is present
+
+2021-03-14 01:55:32 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is visible
+
+2021-03-14 01:55:33 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is clickable
+
+2021-03-14 01:55:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCalledToInputBox' is cleared
+
+2021-03-14 01:55:33 - [MESSAGE][PASSED] - Keys '4698991226' sent to object: 'Object Repository/MainPage/patientCalledToInputBox'
+
+2021-03-14 01:55:34 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is present
+
+2021-03-14 01:55:34 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is visible
+
+2021-03-14 01:55:34 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is clickable
+
+2021-03-14 01:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/submitButton' is clicked on
+
+2021-03-14 01:55:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:55:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/noOngoingIterationText' located by 'By.xpath: //h3[text()='Waiting for a new interaction...']' is not present after '10' second(s)
+
+2021-03-14 01:55:38 - [MESSAGE][PASSED] - mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:55:38 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB): mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:55:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:55:40 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:55:40 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:55:40 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:55:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:55:41 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:55:41 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:55:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:55:42 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:55:42 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:55:42 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is present
+
+2021-03-14 01:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is visible
+
+2021-03-14 01:55:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/sourceTabName' is: 'Cadence Anna'
+
+2021-03-14 01:55:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:55:44 - [MESSAGE][PASSED] - Actual text 'Cadence Anna' and expected text 'Cadence Anna' are matched 
+
+2021-03-14 01:55:44 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:55:44 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB): mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:55:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:55:46 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:55:46 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:55:46 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:55:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:55:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:55:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:55:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/Verification/subjectTabName' located by 'By.xpath: (//div[@class="p-verification__top-item-note"])[3]' is not present after '10' second(s)
+
+2021-03-14 01:55:50 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:55:50 - [TEST_STEP][PASSED] - cards.ReferralsCard.verifyUpcomingReferrals(upComingReferrals): cards.ReferralsCard.verifyUpcomingReferrals is PASSED
+
+2021-03-14 01:55:51 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/upComingReferralsNumber' is present
+
+2021-03-14 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/upComingReferralsNumber' is visible
+
+2021-03-14 01:55:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/PendingReferralsCard/upComingReferralsNumber' is: '1'
+
+2021-03-14 01:55:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:55:53 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched 
+
+2021-03-14 01:55:53 - [MESSAGE][PASSED] - cards.ReferralsCard.verifyUpcomingReferrals is PASSED
+
+2021-03-14 01:55:53 - [TEST_STEP][PASSED] - cards.ReferralsCard.verifyClosedReferrals(closedReferrals): cards.ReferralsCard.verifyClosedReferrals is PASSED
+
+2021-03-14 01:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/closedReferralsNumber' is present
+
+2021-03-14 01:55:54 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/closedReferralsNumber' is visible
+
+2021-03-14 01:55:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/PendingReferralsCard/closedReferralsNumber' is: '13'
+
+2021-03-14 01:55:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:55:55 - [MESSAGE][PASSED] - Actual text '13' and expected text '13' are matched 
+
+2021-03-14 01:55:55 - [MESSAGE][PASSED] - cards.ReferralsCard.verifyClosedReferrals is PASSED
+
+2021-03-14 01:55:55 - [TEST_STEP][PASSED] - cards.ReferralsCard.clickOnGearIcon(): cards.ReferralsCard.clickOnGearIcon is PASSED
+
+2021-03-14 01:55:55 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/gearIcon' is present
+
+2021-03-14 01:55:55 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/gearIcon' is visible
+
+2021-03-14 01:55:56 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/gearIcon' is clickable
+
+2021-03-14 01:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Cards/PendingReferralsCard/gearIcon' is clicked on
+
+2021-03-14 01:55:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:55:58 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/moreDetailsOption' is present
+
+2021-03-14 01:55:58 - [MESSAGE][PASSED] - cards.ReferralsCard.clickOnGearIcon is PASSED
+
+2021-03-14 01:55:58 - [TEST_STEP][PASSED] - cards.ReferralsCard.clickOnMoreDetails(): cards.ReferralsCard.clickOnMoreDetails is PASSED
+
+2021-03-14 01:55:58 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/moreDetailsOption' is present
+
+2021-03-14 01:55:58 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/moreDetailsOption' is visible
+
+2021-03-14 01:55:58 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/moreDetailsOption' is clickable
+
+2021-03-14 01:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Cards/PendingReferralsCard/moreDetailsOption' is clicked on
+
+2021-03-14 01:55:59 - [MESSAGE][PASSED] - cards.ReferralsCard.clickOnMoreDetails is PASSED
+
+2021-03-14 01:55:59 - [TEST_STEP][PASSED] - tabs.ReferralsTab.verifyReferral("1150", "Phoenix, Physician, MD", "Kevin Walker", "Consultation", "Pending"): tabs.ReferralsTab.verifyReferral is PASSED
+
+2021-03-14 01:55:59 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is present
+
+2021-03-14 01:55:59 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is visible
+
+2021-03-14 01:56:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is: '1150'
+
+2021-03-14 01:56:00 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is present
+
+2021-03-14 01:56:00 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is visible
+
+2021-03-14 01:56:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is: 'Phoenix, Physician, MD'
+
+2021-03-14 01:56:01 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is present
+
+2021-03-14 01:56:01 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is visible
+
+2021-03-14 01:56:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is: 'Kevin Walker'
+
+2021-03-14 01:56:02 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is present
+
+2021-03-14 01:56:02 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is visible
+
+2021-03-14 01:56:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is: 'Consultation'
+
+2021-03-14 01:56:03 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is present
+
+2021-03-14 01:56:03 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is visible
+
+2021-03-14 01:56:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/ReferralsTab/tableCell' is: 'Pending'
+
+2021-03-14 01:56:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:04 - [MESSAGE][PASSED] - Actual text '1150' and expected text '1150' are matched 
+
+2021-03-14 01:56:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:05 - [MESSAGE][PASSED] - Actual text 'Phoenix, Physician, MD' and expected text 'Phoenix, Physician, MD' are matched 
+
+2021-03-14 01:56:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:06 - [MESSAGE][PASSED] - Actual text 'Kevin Walker' and expected text 'Kevin Walker' are matched 
+
+2021-03-14 01:56:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:07 - [MESSAGE][PASSED] - Actual text 'Consultation' and expected text 'Consultation' are matched 
+
+2021-03-14 01:56:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:07 - [MESSAGE][PASSED] - Actual text 'Pending' and expected text 'Pending' are matched 
+
+2021-03-14 01:56:07 - [MESSAGE][PASSED] - tabs.ReferralsTab.verifyReferral is PASSED
+
+2021-03-14 01:56:12 - [TEST_STEP][PASSED] - Start listener action : closeBrowserBeforeTestSuire: Refresh successfully
+
+2021-03-14 01:56:12 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-03-14 01:56:13 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC_ID_07 Display Pending Referrals card in the Patient Dashboard' .
+
+2021-03-14 01:56:15 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC_ID_07 Display Pending Referrals card in the Patient Dashboard' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call" time="56.901" classname="Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call" status="PASSED">
+         <system-out><![CDATA[2021-03-14 01:56:15 - [TEST_CASE][PASSED] - Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call: Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - patientCallerId = "6082719000": null
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - patientCalledTo = "4698991226": null
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - soucePatientName = "Cadence,Sam": null
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - sourcePatientDOB = "09-12-1949": null
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - subjectPatientName = "Cadence,Alyssa": null
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - subjectPatientDOB = "03-24-1978": null
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - subjectPatientlocation = "VERONA,Wisconsin,53593": null
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - patientContactNumber = "(608) 271-9000": null
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - subjectPatientCardTitle = "Subject is a Patient (42 year old Female)": null
+
+2021-03-14 01:56:15 - [TEST_STEP][PASSED] - mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo): mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is present
+
+2021-03-14 01:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is visible
+
+2021-03-14 01:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is clickable
+
+2021-03-14 01:56:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCallerIdInputBox' is cleared
+
+2021-03-14 01:56:17 - [MESSAGE][PASSED] - Keys '6082719000' sent to object: 'Object Repository/MainPage/patientCallerIdInputBox'
+
+2021-03-14 01:56:17 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is present
+
+2021-03-14 01:56:17 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is visible
+
+2021-03-14 01:56:18 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is clickable
+
+2021-03-14 01:56:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCalledToInputBox' is cleared
+
+2021-03-14 01:56:19 - [MESSAGE][PASSED] - Keys '4698991226' sent to object: 'Object Repository/MainPage/patientCalledToInputBox'
+
+2021-03-14 01:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is present
+
+2021-03-14 01:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is visible
+
+2021-03-14 01:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is clickable
+
+2021-03-14 01:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/submitButton' is clicked on
+
+2021-03-14 01:56:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/noOngoingIterationText' located by 'By.xpath: //h3[text()='Waiting for a new interaction...']' is not present after '10' second(s)
+
+2021-03-14 01:56:22 - [MESSAGE][PASSED] - mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:56:22 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB): mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:56:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:23 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:56:23 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:56:24 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:56:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:56:24 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:56:25 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:56:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-12-1949'
+
+2021-03-14 01:56:26 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:56:26 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:56:26 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:56:27 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is present
+
+2021-03-14 01:56:27 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is visible
+
+2021-03-14 01:56:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/sourceTabName' is: 'Cadence Sam'
+
+2021-03-14 01:56:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:29 - [MESSAGE][PASSED] - Actual text 'Cadence Sam' and expected text 'Cadence Sam' are matched 
+
+2021-03-14 01:56:29 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:56:29 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB, subjectPatientlocation): mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:56:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:30 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:56:30 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:56:30 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:56:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:56:31 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:56:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '03-24-1978'
+
+2021-03-14 01:56:32 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:56:32 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:56:33 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:56:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/Verification/subjectTabName' located by 'By.xpath: (//div[@class="p-verification__top-item-note"])[3]' is not present after '10' second(s)
+
+2021-03-14 01:56:36 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:56:36 - [TEST_STEP][PASSED] - mainPage.Patient.verifyPatientDetails(subjectPatientCardTitle, subjectPatientName, "1978-03-24", patientContactNumber, subjectPatientlocation): mainPage.Patient.verifyPatientDetails is PASSED
+
+2021-03-14 01:56:37 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectTitle' is present
+
+2021-03-14 01:56:37 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectTitle' is visible
+
+2021-03-14 01:56:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/SubjectCard/subjectTitle' is: 'Subject is a Patient (42 year old Female)'
+
+2021-03-14 01:56:38 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectAddress' is present
+
+2021-03-14 01:56:38 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectAddress' is visible
+
+2021-03-14 01:56:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/SubjectCard/subjectAddress' is: 'Address: VERONA,Wisconsin,53593'
+
+2021-03-14 01:56:39 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectName' is present
+
+2021-03-14 01:56:39 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectName' is visible
+
+2021-03-14 01:56:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/SubjectCard/subjectName' is: 'Cadence Alyssa'
+
+2021-03-14 01:56:40 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectDOB' is present
+
+2021-03-14 01:56:40 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectDOB' is visible
+
+2021-03-14 01:56:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/SubjectCard/subjectDOB' is: 'DOB: 1978-03-24'
+
+2021-03-14 01:56:41 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectEmpi' is present
+
+2021-03-14 01:56:41 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectEmpi' is visible
+
+2021-03-14 01:56:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/SubjectCard/subjectEmpi' is: 'EMPI: E2650'
+
+2021-03-14 01:56:42 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectContactNumber' is present
+
+2021-03-14 01:56:42 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/SubjectCard/subjectContactNumber' is visible
+
+2021-03-14 01:56:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/SubjectCard/subjectContactNumber' is: 'Contact Number:  (608) 271-9000'
+
+2021-03-14 01:56:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:44 - [MESSAGE][PASSED] - Actual text 'Subject is a Patient (42 year old Female)' and expected text 'Subject is a Patient (42 year old Female)' are matched 
+
+2021-03-14 01:56:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:45 - [MESSAGE][PASSED] - Actual text 'VERONA,Wisconsin,53593' and expected text 'VERONA,Wisconsin,53593' are matched 
+
+2021-03-14 01:56:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:46 - [MESSAGE][PASSED] - Actual text 'Cadence Alyssa' and expected text 'Cadence Alyssa' are matched 
+
+2021-03-14 01:56:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:47 - [MESSAGE][PASSED] - Actual text '1978-03-24' and expected text '1978-03-24' are matched 
+
+2021-03-14 01:56:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:48 - [MESSAGE][PASSED] - Actual text '(608) 271-9000' and expected text '(608) 271-9000' are matched 
+
+2021-03-14 01:56:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:49 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/AppoinmentsCard/cardTitle' is present
+
+2021-03-14 01:56:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:50 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/cardTitle' is present
+
+2021-03-14 01:56:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:51 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/EmergencyInfoCard/cardTitle' is present
+
+2021-03-14 01:56:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:52 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/EmploymentInfoCard/cardTitle' is present
+
+2021-03-14 01:56:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:54 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/InsuranceDetails/cardTitle' is present
+
+2021-03-14 01:56:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:55 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PatientCareTeamCard/cardTitle' is present
+
+2021-03-14 01:56:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:56 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PendingReferralsCard/cardTitle' is present
+
+2021-03-14 01:56:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/cardTitle' is present
+
+2021-03-14 01:56:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Navigations/appoinmentsTab' is present
+
+2021-03-14 01:57:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Navigations/billingTab' is present
+
+2021-03-14 01:57:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:01 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Navigations/dashboardTab' is present
+
+2021-03-14 01:57:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:02 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Navigations/medicationTab' is present
+
+2021-03-14 01:57:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:04 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Navigations/ReferralsTab' is present
+
+2021-03-14 01:57:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:05 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Navigations/traigeTab' is present
+
+2021-03-14 01:57:05 - [MESSAGE][PASSED] - mainPage.Patient.verifyPatientDetails is PASSED
+
+2021-03-14 01:57:10 - [TEST_STEP][PASSED] - Start listener action : closeBrowserBeforeTestSuire: Refresh successfully
+
+2021-03-14 01:57:10 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-03-14 01:57:10 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call' .
+
+2021-03-14 01:57:12 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_ID_11 Display Patient Care Team card (PCP) details in the Patient Dashboard" time="32.878" classname="Test Cases/TC_ID_11 Display Patient Care Team card (PCP) details in the Patient Dashboard" status="PASSED">
+         <system-out><![CDATA[2021-03-14 01:57:12 - [TEST_CASE][PASSED] - Test Cases/TC_ID_11 Display Patient Care Team card (PCP) details in the Patient Dashboard: Test Cases/TC_ID_11 Display Patient Care Team card (PCP) details in the Patient Dashboard
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - patientCallerId = "6082719000": null
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - patientCalledTo = "4698991226": null
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - soucePatientName = "Cadence,Anna": null
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - sourcePatientDOB = "09-09-1983": null
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - subjectPatientName = "Cadence,Anna": null
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - subjectPatientDOB = "09-09-1983": null
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - pcpName = "Family Medicine, Physician, MD": null
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - pcpCenter = "": null
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - pcpDept = "Cardio": null
+
+2021-03-14 01:57:12 - [TEST_STEP][PASSED] - mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo): mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:57:13 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is present
+
+2021-03-14 01:57:13 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is visible
+
+2021-03-14 01:57:13 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is clickable
+
+2021-03-14 01:57:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCallerIdInputBox' is cleared
+
+2021-03-14 01:57:14 - [MESSAGE][PASSED] - Keys '6082719000' sent to object: 'Object Repository/MainPage/patientCallerIdInputBox'
+
+2021-03-14 01:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is present
+
+2021-03-14 01:57:15 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is visible
+
+2021-03-14 01:57:15 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is clickable
+
+2021-03-14 01:57:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCalledToInputBox' is cleared
+
+2021-03-14 01:57:16 - [MESSAGE][PASSED] - Keys '4698991226' sent to object: 'Object Repository/MainPage/patientCalledToInputBox'
+
+2021-03-14 01:57:16 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is present
+
+2021-03-14 01:57:16 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is visible
+
+2021-03-14 01:57:17 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is clickable
+
+2021-03-14 01:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/submitButton' is clicked on
+
+2021-03-14 01:57:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:19 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/noOngoingIterationText' located by 'By.xpath: //h3[text()='Waiting for a new interaction...']' is not present after '10' second(s)
+
+2021-03-14 01:57:19 - [MESSAGE][PASSED] - mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:57:19 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB): mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:57:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:20 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:57:20 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:57:21 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:57:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:57:21 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:57:21 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:57:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:57:22 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:57:22 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:57:23 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:57:24 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is present
+
+2021-03-14 01:57:24 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is visible
+
+2021-03-14 01:57:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/sourceTabName' is: 'Cadence Anna'
+
+2021-03-14 01:57:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:25 - [MESSAGE][PASSED] - Actual text 'Cadence Anna' and expected text 'Cadence Anna' are matched 
+
+2021-03-14 01:57:25 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:57:25 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB): mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:57:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:26 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:57:27 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:57:27 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:57:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:57:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:57:29 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:57:29 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:57:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:33 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/Verification/subjectTabName' located by 'By.xpath: (//div[@class="p-verification__top-item-note"])[3]' is not present after '10' second(s)
+
+2021-03-14 01:57:33 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:57:33 - [TEST_STEP][PASSED] - cards.PatientCareTeamCard.verifyPcpDetails(pcpName, pcpCenter, pcpDept): cards.PatientCareTeamCard.verifyPcpDetails is PASSED
+
+2021-03-14 01:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PatientCareTeamCard/pcpName' is present
+
+2021-03-14 01:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PatientCareTeamCard/pcpName' is visible
+
+2021-03-14 01:57:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/PatientCareTeamCard/pcpName' is: 'PCP Name: Family Medicine, Physician, MD'
+
+2021-03-14 01:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PatientCareTeamCard/pcpCenter' is present
+
+2021-03-14 01:57:34 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PatientCareTeamCard/pcpCenter' is visible
+
+2021-03-14 01:57:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/PatientCareTeamCard/pcpCenter' is: 'PCP Center: '
+
+2021-03-14 01:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PatientCareTeamCard/pcpDep' is present
+
+2021-03-14 01:57:36 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/PatientCareTeamCard/pcpDep' is visible
+
+2021-03-14 01:57:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/PatientCareTeamCard/pcpDep' is: 'PCP Dept: Cardio'
+
+2021-03-14 01:57:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:37 - [MESSAGE][PASSED] - Actual text 'Family Medicine, Physician, MD' and expected text 'Family Medicine, Physician, MD' are matched 
+
+2021-03-14 01:57:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:38 - [MESSAGE][PASSED] - Actual text 'Cardio' and expected text 'Cardio' are matched 
+
+2021-03-14 01:57:38 - [MESSAGE][PASSED] - cards.PatientCareTeamCard.verifyPcpDetails is PASSED
+
+2021-03-14 01:57:43 - [TEST_STEP][PASSED] - Start listener action : closeBrowserBeforeTestSuire: Refresh successfully
+
+2021-03-14 01:57:43 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-03-14 01:57:43 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-03-14 01:57:45 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC_ID_11 Display Patient Care Team card (PCP) details in the Patient Dashboard' .
+
+2021-03-14 01:57:45 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC_ID_11 Display Patient Care Team card (PCP) details in the Patient Dashboard' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_ID_05 Display upcoming appointments card in the Patient Dashboard" time="44.306" classname="Test Cases/TC_ID_05 Display upcoming appointments card in the Patient Dashboard" status="PASSED">
+         <system-out><![CDATA[2021-03-14 01:57:45 - [TEST_CASE][PASSED] - Test Cases/TC_ID_05 Display upcoming appointments card in the Patient Dashboard: Test Cases/TC_ID_05 Display upcoming appointments card in the Patient Dashboard
+
+2021-03-14 01:57:45 - [TEST_STEP][PASSED] - patientCallerId = "2158821126": null
+
+2021-03-14 01:57:45 - [TEST_STEP][PASSED] - patientCalledTo = "4698991226": null
+
+2021-03-14 01:57:45 - [TEST_STEP][PASSED] - soucePatientName = "Cadence,Anna": null
+
+2021-03-14 01:57:45 - [TEST_STEP][PASSED] - sourcePatientDOB = "09-09-1983": null
+
+2021-03-14 01:57:45 - [TEST_STEP][PASSED] - subjectPatientName = "Cadence,Anna": null
+
+2021-03-14 01:57:45 - [TEST_STEP][PASSED] - subjectPatientDOB = "09-09-1983": null
+
+2021-03-14 01:57:45 - [TEST_STEP][PASSED] - mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo): mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:57:45 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is present
+
+2021-03-14 01:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is visible
+
+2021-03-14 01:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is clickable
+
+2021-03-14 01:57:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCallerIdInputBox' is cleared
+
+2021-03-14 01:57:47 - [MESSAGE][PASSED] - Keys '2158821126' sent to object: 'Object Repository/MainPage/patientCallerIdInputBox'
+
+2021-03-14 01:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is present
+
+2021-03-14 01:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is visible
+
+2021-03-14 01:57:48 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is clickable
+
+2021-03-14 01:57:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCalledToInputBox' is cleared
+
+2021-03-14 01:57:48 - [MESSAGE][PASSED] - Keys '4698991226' sent to object: 'Object Repository/MainPage/patientCalledToInputBox'
+
+2021-03-14 01:57:49 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is present
+
+2021-03-14 01:57:49 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is visible
+
+2021-03-14 01:57:49 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is clickable
+
+2021-03-14 01:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/submitButton' is clicked on
+
+2021-03-14 01:57:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/noOngoingIterationText' located by 'By.xpath: //h3[text()='Waiting for a new interaction...']' is not present after '10' second(s)
+
+2021-03-14 01:57:52 - [MESSAGE][PASSED] - mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:57:52 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB): mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:57:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:53 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:57:53 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:57:53 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:57:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:57:54 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:57:54 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:57:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:57:56 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:57:57 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is present
+
+2021-03-14 01:57:57 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is visible
+
+2021-03-14 01:57:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/sourceTabName' is: 'Cadence Anna'
+
+2021-03-14 01:57:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:58 - [MESSAGE][PASSED] - Actual text 'Cadence Anna' and expected text 'Cadence Anna' are matched 
+
+2021-03-14 01:57:58 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:57:58 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB): mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:57:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:57:59 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:57:59 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:58:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:58:01 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:58:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:58:02 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:58:02 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:58:02 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:58:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/Verification/subjectTabName' located by 'By.xpath: (//div[@class="p-verification__top-item-note"])[3]' is not present after '10' second(s)
+
+2021-03-14 01:58:05 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:58:05 - [TEST_STEP][PASSED] - cards.AppoinmentCard.clickOnGearIcon(): cards.AppoinmentCard.clickOnGearIcon is PASSED
+
+2021-03-14 01:58:06 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/AppoinmentsCard/gearIcon' is present
+
+2021-03-14 01:58:06 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/AppoinmentsCard/gearIcon' is visible
+
+2021-03-14 01:58:06 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/AppoinmentsCard/gearIcon' is clickable
+
+2021-03-14 01:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Cards/AppoinmentsCard/gearIcon' is clicked on
+
+2021-03-14 01:58:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:08 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/AppoinmentsCard/moreDetailsOption' is present
+
+2021-03-14 01:58:08 - [MESSAGE][PASSED] - cards.AppoinmentCard.clickOnGearIcon is PASSED
+
+2021-03-14 01:58:08 - [TEST_STEP][PASSED] - cards.AppoinmentCard.clickOnMoreDetails(): cards.AppoinmentCard.clickOnMoreDetails is PASSED
+
+2021-03-14 01:58:08 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/AppoinmentsCard/moreDetailsOption' is present
+
+2021-03-14 01:58:09 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/AppoinmentsCard/moreDetailsOption' is visible
+
+2021-03-14 01:58:09 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/AppoinmentsCard/moreDetailsOption' is clickable
+
+2021-03-14 01:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Cards/AppoinmentsCard/moreDetailsOption' is clicked on
+
+2021-03-14 01:58:09 - [MESSAGE][PASSED] - cards.AppoinmentCard.clickOnMoreDetails is PASSED
+
+2021-03-14 01:58:09 - [TEST_STEP][PASSED] - tabs.AppoinmentsTab.switchToNoShowsAppoinments(): tabs.AppoinmentsTab.switchToNoShowsAppoinments is PASSED
+
+2021-03-14 01:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/noShowsAppoinments' is present
+
+2021-03-14 01:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/noShowsAppoinments' is visible
+
+2021-03-14 01:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/noShowsAppoinments' is clickable
+
+2021-03-14 01:58:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Tabs/AppoinmentsTab/noShowsAppoinments' is clicked on
+
+2021-03-14 01:58:11 - [MESSAGE][PASSED] - tabs.AppoinmentsTab.switchToNoShowsAppoinments is PASSED
+
+2021-03-14 01:58:11 - [TEST_STEP][PASSED] - tabs.AppoinmentsTab.verifyAppoinment("7/21/2020", "EMH PHX CTH DEPT", "Coordinator Phoenix, RN", "TRANSPLANT EVALUATION", "No Show", "4:30 PM"): tabs.AppoinmentsTab.verifyAppoinment is PASSED
+
+2021-03-14 01:58:11 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is present
+
+2021-03-14 01:58:11 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is visible
+
+2021-03-14 01:58:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is: '7/21/2020'
+
+2021-03-14 01:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is present
+
+2021-03-14 01:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is visible
+
+2021-03-14 01:58:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is: 'EMH PHX CTH DEPT'
+
+2021-03-14 01:58:13 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is present
+
+2021-03-14 01:58:13 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is visible
+
+2021-03-14 01:58:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is: 'Coordinator Phoenix, RN'
+
+2021-03-14 01:58:14 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is present
+
+2021-03-14 01:58:15 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is visible
+
+2021-03-14 01:58:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is: 'TRANSPLANT EVALUATION'
+
+2021-03-14 01:58:15 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is present
+
+2021-03-14 01:58:16 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is visible
+
+2021-03-14 01:58:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is: 'No Show'
+
+2021-03-14 01:58:16 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is present
+
+2021-03-14 01:58:17 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is visible
+
+2021-03-14 01:58:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Tabs/AppoinmentsTab/tableCell' is: '4:30 PM'
+
+2021-03-14 01:58:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:18 - [MESSAGE][PASSED] - Actual text '7/21/2020' and expected text '7/21/2020' are matched 
+
+2021-03-14 01:58:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:18 - [MESSAGE][PASSED] - Actual text 'EMH PHX CTH DEPT' and expected text 'EMH PHX CTH DEPT' are matched 
+
+2021-03-14 01:58:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:19 - [MESSAGE][PASSED] - Actual text 'Coordinator Phoenix, RN' and expected text 'Coordinator Phoenix, RN' are matched 
+
+2021-03-14 01:58:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:20 - [MESSAGE][PASSED] - Actual text 'TRANSPLANT EVALUATION' and expected text 'TRANSPLANT EVALUATION' are matched 
+
+2021-03-14 01:58:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:21 - [MESSAGE][PASSED] - Actual text 'No Show' and expected text 'No Show' are matched 
+
+2021-03-14 01:58:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:22 - [MESSAGE][PASSED] - Actual text '4:30 PM' and expected text '4:30 PM' are matched 
+
+2021-03-14 01:58:22 - [MESSAGE][PASSED] - tabs.AppoinmentsTab.verifyAppoinment is PASSED
+
+2021-03-14 01:58:27 - [TEST_STEP][PASSED] - Start listener action : closeBrowserBeforeTestSuire: Refresh successfully
+
+2021-03-14 01:58:27 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-03-14 01:58:27 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-03-14 01:58:29 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC_ID_05 Display upcoming appointments card in the Patient Dashboard' .
+
+2021-03-14 01:58:29 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC_ID_05 Display upcoming appointments card in the Patient Dashboard' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_ID_09 Display Pending bills card in the Patient Dashboard" time="36.563" classname="Test Cases/TC_ID_09 Display Pending bills card in the Patient Dashboard" status="PASSED">
+         <system-out><![CDATA[2021-03-14 01:58:29 - [TEST_CASE][PASSED] - Test Cases/TC_ID_09 Display Pending bills card in the Patient Dashboard: Test Cases/TC_ID_09 Display Pending bills card in the Patient Dashboard
+
+2021-03-14 01:58:29 - [TEST_STEP][PASSED] - patientCallerId = "6082719000": null
+
+2021-03-14 01:58:29 - [TEST_STEP][PASSED] - patientCalledTo = "4698991226": null
+
+2021-03-14 01:58:29 - [TEST_STEP][PASSED] - soucePatientName = "Cadence,Anna": null
+
+2021-03-14 01:58:29 - [TEST_STEP][PASSED] - sourcePatientDOB = "09-09-1983": null
+
+2021-03-14 01:58:29 - [TEST_STEP][PASSED] - subjectPatientName = "Cadence,Anna": null
+
+2021-03-14 01:58:30 - [TEST_STEP][PASSED] - subjectPatientDOB = "09-09-1983": null
+
+2021-03-14 01:58:30 - [TEST_STEP][PASSED] - bills = "16": null
+
+2021-03-14 01:58:30 - [TEST_STEP][PASSED] - patientBalance = "19413.11": null
+
+2021-03-14 01:58:30 - [TEST_STEP][PASSED] - insuranceBalance = "405.57": null
+
+2021-03-14 01:58:30 - [TEST_STEP][PASSED] - mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo): mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:58:30 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is present
+
+2021-03-14 01:58:30 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is visible
+
+2021-03-14 01:58:31 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is clickable
+
+2021-03-14 01:58:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCallerIdInputBox' is cleared
+
+2021-03-14 01:58:31 - [MESSAGE][PASSED] - Keys '6082719000' sent to object: 'Object Repository/MainPage/patientCallerIdInputBox'
+
+2021-03-14 01:58:32 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is present
+
+2021-03-14 01:58:32 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is visible
+
+2021-03-14 01:58:32 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is clickable
+
+2021-03-14 01:58:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCalledToInputBox' is cleared
+
+2021-03-14 01:58:33 - [MESSAGE][PASSED] - Keys '4698991226' sent to object: 'Object Repository/MainPage/patientCalledToInputBox'
+
+2021-03-14 01:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is present
+
+2021-03-14 01:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is visible
+
+2021-03-14 01:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is clickable
+
+2021-03-14 01:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/submitButton' is clicked on
+
+2021-03-14 01:58:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/noOngoingIterationText' located by 'By.xpath: //h3[text()='Waiting for a new interaction...']' is not present after '10' second(s)
+
+2021-03-14 01:58:36 - [MESSAGE][PASSED] - mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:58:36 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB): mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:58:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:37 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:58:37 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:58:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:58:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:58:40 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is present
+
+2021-03-14 01:58:40 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is visible
+
+2021-03-14 01:58:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/sourceTabName' is: 'Cadence Anna'
+
+2021-03-14 01:58:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:42 - [MESSAGE][PASSED] - Actual text 'Cadence Anna' and expected text 'Cadence Anna' are matched 
+
+2021-03-14 01:58:42 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:58:42 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB): mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:58:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:43 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:58:43 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:58:44 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:58:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:58:44 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:58:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:58:46 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:58:46 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:58:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:48 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/Verification/subjectTabName' located by 'By.xpath: (//div[@class="p-verification__top-item-note"])[3]' is not present after '10' second(s)
+
+2021-03-14 01:58:48 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:58:48 - [TEST_STEP][PASSED] - cards.BillingInformationCard.verifyPatientBillingDetails(bills, patientBalance, insuranceBalance): cards.BillingInformationCard.verifyPatientBillingDetails is PASSED
+
+2021-03-14 01:58:48 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/patientBills' is present
+
+2021-03-14 01:58:50 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/patientBills' is visible
+
+2021-03-14 01:58:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/BillingInformationCard/patientBills' is: '16'
+
+2021-03-14 01:58:50 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/patientBalanceAmount' is present
+
+2021-03-14 01:58:51 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/patientBalanceAmount' is visible
+
+2021-03-14 01:58:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/BillingInformationCard/patientBalanceAmount' is: '$19413.11'
+
+2021-03-14 01:58:51 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/insuranceBalanceAmount' is present
+
+2021-03-14 01:58:52 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/insuranceBalanceAmount' is visible
+
+2021-03-14 01:58:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/BillingInformationCard/insuranceBalanceAmount' is: '$405.57'
+
+2021-03-14 01:58:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:53 - [MESSAGE][PASSED] - Actual text '16' and expected text '16' are matched 
+
+2021-03-14 01:58:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:54 - [MESSAGE][PASSED] - Actual text '$19413.11' and expected text '$19413.11' are matched 
+
+2021-03-14 01:58:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:55 - [MESSAGE][PASSED] - Actual text '$405.57' and expected text '$405.57' are matched 
+
+2021-03-14 01:58:55 - [MESSAGE][PASSED] - cards.BillingInformationCard.verifyPatientBillingDetails is PASSED
+
+2021-03-14 01:58:55 - [TEST_STEP][PASSED] - cards.BillingInformationCard.clickOnGearIcon(): cards.BillingInformationCard.clickOnGearIcon is PASSED
+
+2021-03-14 01:58:55 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/gearIcon' is present
+
+2021-03-14 01:58:55 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/gearIcon' is visible
+
+2021-03-14 01:58:56 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/gearIcon' is clickable
+
+2021-03-14 01:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Cards/BillingInformationCard/gearIcon' is clicked on
+
+2021-03-14 01:58:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:58:57 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/moreDetailsOption' is present
+
+2021-03-14 01:58:57 - [MESSAGE][PASSED] - cards.BillingInformationCard.clickOnGearIcon is PASSED
+
+2021-03-14 01:58:57 - [TEST_STEP][PASSED] - cards.BillingInformationCard.clickOnMoreDetails(): cards.BillingInformationCard.clickOnMoreDetails is PASSED
+
+2021-03-14 01:58:58 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/moreDetailsOption' is present
+
+2021-03-14 01:58:58 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/moreDetailsOption' is visible
+
+2021-03-14 01:58:58 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/BillingInformationCard/moreDetailsOption' is clickable
+
+2021-03-14 01:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Cards/BillingInformationCard/moreDetailsOption' is clicked on
+
+2021-03-14 01:58:59 - [MESSAGE][PASSED] - cards.BillingInformationCard.clickOnMoreDetails is PASSED
+
+2021-03-14 01:59:04 - [TEST_STEP][PASSED] - Start listener action : closeBrowserBeforeTestSuire: Refresh successfully
+
+2021-03-14 01:59:04 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-03-14 01:59:04 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-03-14 01:59:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC_ID_09 Display Pending bills card in the Patient Dashboard' .
+
+2021-03-14 01:59:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC_ID_09 Display Pending bills card in the Patient Dashboard' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_ID_16 Display Additional information card (PCP) details in the Patient Dashboard" time="31.001" classname="Test Cases/TC_ID_16 Display Additional information card (PCP) details in the Patient Dashboard" status="PASSED">
+         <system-out><![CDATA[2021-03-14 01:59:06 - [TEST_CASE][PASSED] - Test Cases/TC_ID_16 Display Additional information card (PCP) details in the Patient Dashboard: Test Cases/TC_ID_16 Display Additional information card (PCP) details in the Patient Dashboard
+
+2021-03-14 01:59:06 - [TEST_STEP][PASSED] - patientCallerId = "6082719000": null
+
+2021-03-14 01:59:06 - [TEST_STEP][PASSED] - patientCalledTo = "4698991226": null
+
+2021-03-14 01:59:06 - [TEST_STEP][PASSED] - soucePatientName = "Cadence,Anna": null
+
+2021-03-14 01:59:06 - [TEST_STEP][PASSED] - sourcePatientDOB = "09-09-1983": null
+
+2021-03-14 01:59:06 - [TEST_STEP][PASSED] - subjectPatientName = "Cadence,Anna": null
+
+2021-03-14 01:59:06 - [TEST_STEP][PASSED] - subjectPatientDOB = "09-09-1983": null
+
+2021-03-14 01:59:06 - [TEST_STEP][PASSED] - name = "Smith, John": null
+
+2021-03-14 01:59:06 - [TEST_STEP][PASSED] - contactNumber = "608-271-9000": null
+
+2021-03-14 01:59:06 - [TEST_STEP][PASSED] - mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo): mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is present
+
+2021-03-14 01:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is visible
+
+2021-03-14 01:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is clickable
+
+2021-03-14 01:59:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCallerIdInputBox' is cleared
+
+2021-03-14 01:59:08 - [MESSAGE][PASSED] - Keys '6082719000' sent to object: 'Object Repository/MainPage/patientCallerIdInputBox'
+
+2021-03-14 01:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is present
+
+2021-03-14 01:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is visible
+
+2021-03-14 01:59:09 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is clickable
+
+2021-03-14 01:59:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCalledToInputBox' is cleared
+
+2021-03-14 01:59:09 - [MESSAGE][PASSED] - Keys '4698991226' sent to object: 'Object Repository/MainPage/patientCalledToInputBox'
+
+2021-03-14 01:59:09 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is present
+
+2021-03-14 01:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is visible
+
+2021-03-14 01:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is clickable
+
+2021-03-14 01:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/submitButton' is clicked on
+
+2021-03-14 01:59:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/noOngoingIterationText' located by 'By.xpath: //h3[text()='Waiting for a new interaction...']' is not present after '10' second(s)
+
+2021-03-14 01:59:12 - [MESSAGE][PASSED] - mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:59:12 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB): mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:59:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:59:14 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:59:14 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:59:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:59:15 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:59:15 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:59:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:59:17 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:59:17 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is present
+
+2021-03-14 01:59:18 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is visible
+
+2021-03-14 01:59:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/sourceTabName' is: 'Cadence Anna'
+
+2021-03-14 01:59:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:19 - [MESSAGE][PASSED] - Actual text 'Cadence Anna' and expected text 'Cadence Anna' are matched 
+
+2021-03-14 01:59:19 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:59:19 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB): mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:59:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:20 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:59:20 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:59:20 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:59:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:59:21 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:59:21 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:59:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:59:22 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:59:23 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:59:23 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:59:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/Verification/subjectTabName' located by 'By.xpath: (//div[@class="p-verification__top-item-note"])[3]' is not present after '10' second(s)
+
+2021-03-14 01:59:26 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:59:26 - [TEST_STEP][PASSED] - cards.EmergencyContactInformationCard.verifyEmergencyContactDetails(name, contactNumber): cards.EmergencyContactInformationCard.verifyEmergencyContactDetails is PASSED
+
+2021-03-14 01:59:26 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/EmergencyInfoCard/name' is present
+
+2021-03-14 01:59:27 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/EmergencyInfoCard/name' is visible
+
+2021-03-14 01:59:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/EmergencyInfoCard/name' is: 'Name: Smith, John'
+
+2021-03-14 01:59:27 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/EmergencyInfoCard/contactNumber' is present
+
+2021-03-14 01:59:27 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/EmergencyInfoCard/contactNumber' is visible
+
+2021-03-14 01:59:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/EmergencyInfoCard/contactNumber' is: 'Contact Number: 608-271-9000'
+
+2021-03-14 01:59:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:29 - [MESSAGE][PASSED] - Actual text 'Smith, John' and expected text 'Smith, John' are matched 
+
+2021-03-14 01:59:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:30 - [MESSAGE][PASSED] - Actual text '608-271-9000' and expected text '608-271-9000' are matched 
+
+2021-03-14 01:59:30 - [MESSAGE][PASSED] - cards.EmergencyContactInformationCard.verifyEmergencyContactDetails is PASSED
+
+2021-03-14 01:59:35 - [TEST_STEP][PASSED] - Start listener action : closeBrowserBeforeTestSuire: Refresh successfully
+
+2021-03-14 01:59:35 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-03-14 01:59:35 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-03-14 01:59:37 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC_ID_16 Display Additional information card (PCP) details in the Patient Dashboard' .
+
+2021-03-14 01:59:37 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC_ID_16 Display Additional information card (PCP) details in the Patient Dashboard' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_ID_14 Display Pharmacies card in the Patient Dashboard" time="36.557" classname="Test Cases/TC_ID_14 Display Pharmacies card in the Patient Dashboard" status="PASSED">
+         <system-out><![CDATA[2021-03-14 01:59:37 - [TEST_CASE][PASSED] - Test Cases/TC_ID_14 Display Pharmacies card in the Patient Dashboard: Test Cases/TC_ID_14 Display Pharmacies card in the Patient Dashboard
+
+2021-03-14 01:59:37 - [TEST_STEP][PASSED] - patientCallerId = "6082719000": null
+
+2021-03-14 01:59:37 - [TEST_STEP][PASSED] - patientCalledTo = "4698991226": null
+
+2021-03-14 01:59:37 - [TEST_STEP][PASSED] - soucePatientName = "Cadence,Anna": null
+
+2021-03-14 01:59:37 - [TEST_STEP][PASSED] - sourcePatientDOB = "09-09-1983": null
+
+2021-03-14 01:59:37 - [TEST_STEP][PASSED] - subjectPatientName = "Cadence,Anna": null
+
+2021-03-14 01:59:37 - [TEST_STEP][PASSED] - subjectPatientDOB = "09-09-1983": null
+
+2021-03-14 01:59:37 - [TEST_STEP][PASSED] - pharmacyName = "EMC Prescription Pharmacy South": null
+
+2021-03-14 01:59:37 - [TEST_STEP][PASSED] - pharmacyNumber = "555-555-5555": null
+
+2021-03-14 01:59:37 - [TEST_STEP][PASSED] - mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo): mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:59:37 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is present
+
+2021-03-14 01:59:38 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is visible
+
+2021-03-14 01:59:38 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCallerIdInputBox' is clickable
+
+2021-03-14 01:59:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCallerIdInputBox' is cleared
+
+2021-03-14 01:59:39 - [MESSAGE][PASSED] - Keys '6082719000' sent to object: 'Object Repository/MainPage/patientCallerIdInputBox'
+
+2021-03-14 01:59:39 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is present
+
+2021-03-14 01:59:39 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is visible
+
+2021-03-14 01:59:39 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/patientCalledToInputBox' is clickable
+
+2021-03-14 01:59:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/patientCalledToInputBox' is cleared
+
+2021-03-14 01:59:40 - [MESSAGE][PASSED] - Keys '4698991226' sent to object: 'Object Repository/MainPage/patientCalledToInputBox'
+
+2021-03-14 01:59:40 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is present
+
+2021-03-14 01:59:41 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is visible
+
+2021-03-14 01:59:41 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/submitButton' is clickable
+
+2021-03-14 01:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/submitButton' is clicked on
+
+2021-03-14 01:59:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:43 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/noOngoingIterationText' located by 'By.xpath: //h3[text()='Waiting for a new interaction...']' is not present after '10' second(s)
+
+2021-03-14 01:59:43 - [MESSAGE][PASSED] - mainPage.Mainpage.searchWith is PASSED
+
+2021-03-14 01:59:43 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB): mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:59:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:44 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:59:45 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:59:45 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:59:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:59:46 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:59:46 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:59:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:59:48 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is present
+
+2021-03-14 01:59:48 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/sourceTabName' is visible
+
+2021-03-14 01:59:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/sourceTabName' is: 'Cadence Anna'
+
+2021-03-14 01:59:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:50 - [MESSAGE][PASSED] - Actual text 'Cadence Anna' and expected text 'Cadence Anna' are matched 
+
+2021-03-14 01:59:50 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySource is PASSED
+
+2021-03-14 01:59:50 - [TEST_STEP][PASSED] - mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB): mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:59:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:51 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:59:51 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is present
+
+2021-03-14 01:59:52 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' is visible
+
+2021-03-14 01:59:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MainPage/Verification/getTableRowsBasedonPatientName' successfully
+
+2021-03-14 01:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is present
+
+2021-03-14 01:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/getDOBOfPatient' is visible
+
+2021-03-14 01:59:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Verification/getDOBOfPatient' is: '09-09-1983'
+
+2021-03-14 01:59:54 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is present
+
+2021-03-14 01:59:54 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is visible
+
+2021-03-14 01:59:55 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clickable
+
+2021-03-14 01:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Verification/verifyCheckMarkOfPatient' is clicked on
+
+2021-03-14 01:59:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 01:59:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/MainPage/Verification/subjectTabName' located by 'By.xpath: (//div[@class="p-verification__top-item-note"])[3]' is not present after '10' second(s)
+
+2021-03-14 01:59:57 - [MESSAGE][PASSED] - mainPage.Mainpage.verifySubject is PASSED
+
+2021-03-14 01:59:57 - [TEST_STEP][PASSED] - cards.PharmaciesCard.verifyPatientPharmacyDetails(pharmacyName, pharmacyNumber): cards.PharmaciesCard.verifyPatientPharmacyDetails is PASSED
+
+2021-03-14 01:59:58 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/prefPharamacyName' is present
+
+2021-03-14 01:59:58 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/prefPharamacyName' is visible
+
+2021-03-14 01:59:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/Pharmacies/prefPharamacyName' is: 'Preferred Pharmacy Name: EMC Prescription Pharmacy South'
+
+2021-03-14 01:59:59 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/pharmacyNumber' is present
+
+2021-03-14 01:59:59 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/pharmacyNumber' is visible
+
+2021-03-14 02:00:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/MainPage/Cards/Pharmacies/pharmacyNumber' is: 'Pharmacy Number: 555-555-5555'
+
+2021-03-14 02:00:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 02:00:01 - [MESSAGE][PASSED] - Actual text 'EMC Prescription Pharmacy South' and expected text 'EMC Prescription Pharmacy South' are matched 
+
+2021-03-14 02:00:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 02:00:02 - [MESSAGE][PASSED] - Actual text '555-555-5555' and expected text '555-555-5555' are matched 
+
+2021-03-14 02:00:02 - [MESSAGE][PASSED] - cards.PharmaciesCard.verifyPatientPharmacyDetails is PASSED
+
+2021-03-14 02:00:02 - [TEST_STEP][PASSED] - cards.PharmaciesCard.clickOnGearIcon(): cards.PharmaciesCard.clickOnGearIcon is PASSED
+
+2021-03-14 02:00:02 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/gearIcon' is present
+
+2021-03-14 02:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/gearIcon' is visible
+
+2021-03-14 02:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/gearIcon' is clickable
+
+2021-03-14 02:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Cards/Pharmacies/gearIcon' is clicked on
+
+2021-03-14 02:00:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/apple/Documents/GitHub/SpinSci/passed.png]]
+
+2021-03-14 02:00:05 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/moreDetailsOption' is present
+
+2021-03-14 02:00:05 - [MESSAGE][PASSED] - cards.PharmaciesCard.clickOnGearIcon is PASSED
+
+2021-03-14 02:00:05 - [TEST_STEP][PASSED] - cards.PharmaciesCard.clickOnMoreDetails(): cards.PharmaciesCard.clickOnMoreDetails is PASSED
+
+2021-03-14 02:00:05 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/moreDetailsOption' is present
+
+2021-03-14 02:00:05 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/moreDetailsOption' is visible
+
+2021-03-14 02:00:06 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Cards/Pharmacies/moreDetailsOption' is clickable
+
+2021-03-14 02:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Cards/Pharmacies/moreDetailsOption' is clicked on
+
+2021-03-14 02:00:06 - [MESSAGE][PASSED] - cards.PharmaciesCard.clickOnMoreDetails is PASSED
+
+2021-03-14 02:00:11 - [TEST_STEP][PASSED] - Start listener action : closeBrowserBeforeTestSuire: Refresh successfully
+
+2021-03-14 02:00:11 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-03-14 02:00:11 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-03-14 02:00:14 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/TC_ID_14 Display Pharmacies card in the Patient Dashboard' .
+
+2021-03-14 02:00:14 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/TC_ID_14 Display Pharmacies card in the Patient Dashboard' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-14 01:55:22 - [TEST_SUITE][INCOMPLETE] - Demo Test Suite: null]]></system-out>
+      <system-err><![CDATA[2021-03-14 01:55:22 - [TEST_SUITE][INCOMPLETE] - Demo Test Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

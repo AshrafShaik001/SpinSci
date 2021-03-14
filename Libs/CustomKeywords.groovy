@@ -13,6 +13,382 @@ import java.util.Map
 
 
 
+def static "mainPage.Patient.verifyPatientDetails"(
+    	Object subjectCardTitle	
+     , 	Object patientName	
+     , 	Object patientDOB	
+     , 	Object patinetContactNumber	
+     , 	Object patientAddress	) {
+    (new mainPage.Patient()).verifyPatientDetails(
+        	subjectCardTitle
+         , 	patientName
+         , 	patientDOB
+         , 	patinetContactNumber
+         , 	patientAddress)
+}
+
+
+def static "tabs.AppoinmentsTab.verifyAppoinment"(
+    	Object date	
+     , 	Object department	
+     , 	Object provider	
+     , 	Object visitType	
+     , 	Object status	
+     , 	Object appointmentTime	) {
+    (new tabs.AppoinmentsTab()).verifyAppoinment(
+        	date
+         , 	department
+         , 	provider
+         , 	visitType
+         , 	status
+         , 	appointmentTime)
+}
+
+
+def static "tabs.AppoinmentsTab.switchToFutureAppoinments"() {
+    (new tabs.AppoinmentsTab()).switchToFutureAppoinments()
+}
+
+
+def static "tabs.AppoinmentsTab.switchToPastAppoinments"() {
+    (new tabs.AppoinmentsTab()).switchToPastAppoinments()
+}
+
+
+def static "tabs.AppoinmentsTab.switchToCancelledAppoinments"() {
+    (new tabs.AppoinmentsTab()).switchToCancelledAppoinments()
+}
+
+
+def static "tabs.AppoinmentsTab.switchToNoShowsAppoinments"() {
+    (new tabs.AppoinmentsTab()).switchToNoShowsAppoinments()
+}
+
+
+def static "tabs.AppoinmentsTab.getAppoinmentDetailsBasedOnIndex"(
+    	Object index	) {
+    (new tabs.AppoinmentsTab()).getAppoinmentDetailsBasedOnIndex(
+        	index)
+}
+
+
+def static "tabs.ReferralsTab.verifyReferral"(
+    	Object referralId	
+     , 	Object referralBy	
+     , 	Object referralTo	
+     , 	Object referraltype	
+     , 	Object referralStatus	) {
+    (new tabs.ReferralsTab()).verifyReferral(
+        	referralId
+         , 	referralBy
+         , 	referralTo
+         , 	referraltype
+         , 	referralStatus)
+}
+
+
+def static "tabs.ReferralsTab.getReferralDetailsBasedOnIndex"(
+    	Object index	) {
+    (new tabs.ReferralsTab()).getReferralDetailsBasedOnIndex(
+        	index)
+}
+
+
+def static "cards.ReferralsCard.clickOnGearIcon"() {
+    (new cards.ReferralsCard()).clickOnGearIcon()
+}
+
+
+def static "cards.ReferralsCard.clickOnMoreDetails"() {
+    (new cards.ReferralsCard()).clickOnMoreDetails()
+}
+
+
+def static "cards.ReferralsCard.getUpcomingReferrals"() {
+    (new cards.ReferralsCard()).getUpcomingReferrals()
+}
+
+
+def static "cards.ReferralsCard.getClosedReferrals"() {
+    (new cards.ReferralsCard()).getClosedReferrals()
+}
+
+
+def static "cards.ReferralsCard.verifyUpcomingReferrals"(
+    	Object upcomingReferrals	) {
+    (new cards.ReferralsCard()).verifyUpcomingReferrals(
+        	upcomingReferrals)
+}
+
+
+def static "cards.ReferralsCard.verifyClosedReferrals"(
+    	Object closedReferrals	) {
+    (new cards.ReferralsCard()).verifyClosedReferrals(
+        	closedReferrals)
+}
+
+
+def static "webAutomation.Verifications.verifyElementPresent"(
+    	TestObject element	
+     , 	String failureDescription	
+     , 	int maxWaitTime	) {
+    (new webAutomation.Verifications()).verifyElementPresent(
+        	element
+         , 	failureDescription
+         , 	maxWaitTime)
+}
+
+
+def static "webAutomation.Verifications.verifyElementPresentAndContinueOnFailure"(
+    	TestObject element	
+     , 	String failureDescription	
+     , 	int maxWaitTime	) {
+    (new webAutomation.Verifications()).verifyElementPresentAndContinueOnFailure(
+        	element
+         , 	failureDescription
+         , 	maxWaitTime)
+}
+
+
+def static "webAutomation.Verifications.verifyElementNotPresent"(
+    	TestObject element	
+     , 	String failureDescription	
+     , 	int maxWaitTime	) {
+    (new webAutomation.Verifications()).verifyElementNotPresent(
+        	element
+         , 	failureDescription
+         , 	maxWaitTime)
+}
+
+
+def static "webAutomation.Verifications.verifyElementNotPresentAndContinuewOnFailure"(
+    	TestObject element	
+     , 	String failureDescription	
+     , 	int maxWaitTime	) {
+    (new webAutomation.Verifications()).verifyElementNotPresentAndContinuewOnFailure(
+        	element
+         , 	failureDescription
+         , 	maxWaitTime)
+}
+
+
+def static "webAutomation.Verifications.verifyTextMatch"(
+    	String actual	
+     , 	String expected	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyTextMatch(
+        	actual
+         , 	expected
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyElementVisible"(
+    	TestObject element	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyElementVisible(
+        	element
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyElementNotVisible"(
+    	TestObject element	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyElementNotVisible(
+        	element
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyElementNotVisibleAndContinuewOnFailure"(
+    	TestObject element	
+     , 	String failureDescription	
+     , 	int maxWaitTime	) {
+    (new webAutomation.Verifications()).verifyElementNotVisibleAndContinuewOnFailure(
+        	element
+         , 	failureDescription
+         , 	maxWaitTime)
+}
+
+
+def static "webAutomation.Verifications.verifyElementClickable"(
+    	TestObject element	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyElementClickable(
+        	element
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyElementNotClickable"(
+    	TestObject element	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyElementNotClickable(
+        	element
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyTextboxEditable"(
+    	TestObject element	) {
+    (new webAutomation.Verifications()).verifyTextboxEditable(
+        	element)
+}
+
+
+def static "webAutomation.Verifications.verifyElementPresentInMobile"(
+    	TestObject element	
+     , 	String failureDescription	
+     , 	int maxWaitTime	) {
+    (new webAutomation.Verifications()).verifyElementPresentInMobile(
+        	element
+         , 	failureDescription
+         , 	maxWaitTime)
+}
+
+
+def static "webAutomation.Verifications.verifyObjectsMatch"(
+    	Object actual	
+     , 	Object expected	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyObjectsMatch(
+        	actual
+         , 	expected
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyElementPresent"(
+    	TestObject element	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyElementPresent(
+        	element
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyElementPresentAndContinueOnFailure"(
+    	TestObject element	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyElementPresentAndContinueOnFailure(
+        	element
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyElementNotPresent"(
+    	TestObject element	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyElementNotPresent(
+        	element
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyElementNotPresentAndContinuewOnFailure"(
+    	TestObject element	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyElementNotPresentAndContinuewOnFailure(
+        	element
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyElementNotVisibleAndContinuewOnFailure"(
+    	TestObject element	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyElementNotVisibleAndContinuewOnFailure(
+        	element
+         , 	failureDescription)
+}
+
+
+def static "webAutomation.Verifications.verifyElementPresentInMobile"(
+    	TestObject element	
+     , 	String failureDescription	) {
+    (new webAutomation.Verifications()).verifyElementPresentInMobile(
+        	element
+         , 	failureDescription)
+}
+
+
+def static "cards.AppoinmentCard.clickOnGearIcon"() {
+    (new cards.AppoinmentCard()).clickOnGearIcon()
+}
+
+
+def static "cards.AppoinmentCard.clickOnMoreDetails"() {
+    (new cards.AppoinmentCard()).clickOnMoreDetails()
+}
+
+
+def static "cards.BillingInformationCard.clickOnGearIcon"() {
+    (new cards.BillingInformationCard()).clickOnGearIcon()
+}
+
+
+def static "cards.BillingInformationCard.clickOnMoreDetails"() {
+    (new cards.BillingInformationCard()).clickOnMoreDetails()
+}
+
+
+def static "cards.BillingInformationCard.getPatientBillingDetails"() {
+    (new cards.BillingInformationCard()).getPatientBillingDetails()
+}
+
+
+def static "cards.BillingInformationCard.verifyPatientBillingDetails"(
+    	Object bills	
+     , 	Object patientBalance	
+     , 	Object insuranceBalance	) {
+    (new cards.BillingInformationCard()).verifyPatientBillingDetails(
+        	bills
+         , 	patientBalance
+         , 	insuranceBalance)
+}
+
+
+def static "cards.PatientCareTeamCard.getPcpDetails"() {
+    (new cards.PatientCareTeamCard()).getPcpDetails()
+}
+
+
+def static "cards.PatientCareTeamCard.verifyPcpDetails"(
+    	Object name	
+     , 	Object center	
+     , 	Object dept	) {
+    (new cards.PatientCareTeamCard()).verifyPcpDetails(
+        	name
+         , 	center
+         , 	dept)
+}
+
+
+def static "cards.PharmaciesCard.clickOnGearIcon"() {
+    (new cards.PharmaciesCard()).clickOnGearIcon()
+}
+
+
+def static "cards.PharmaciesCard.clickOnMoreDetails"() {
+    (new cards.PharmaciesCard()).clickOnMoreDetails()
+}
+
+
+def static "cards.PharmaciesCard.getPatientPharmacyDetails"() {
+    (new cards.PharmaciesCard()).getPatientPharmacyDetails()
+}
+
+
+def static "cards.PharmaciesCard.verifyPatientPharmacyDetails"(
+    	Object pharmacyName	
+     , 	Object pharmacyNumber	) {
+    (new cards.PharmaciesCard()).verifyPatientPharmacyDetails(
+        	pharmacyName
+         , 	pharmacyNumber)
+}
+
+
 def static "webAutomation.WebActions.click"(
     	TestObject element	) {
     (new webAutomation.WebActions()).click(
@@ -123,6 +499,30 @@ def static "webAutomation.WebActions.getElementCount"(
     	TestObject element	) {
     (new webAutomation.WebActions()).getElementCount(
         	element)
+}
+
+
+def static "cards.EmergencyContactInformationCard.getEmergencyContactDetails"() {
+    (new cards.EmergencyContactInformationCard()).getEmergencyContactDetails()
+}
+
+
+def static "cards.EmergencyContactInformationCard.verifyEmergencyContactDetails"(
+    	Object name	
+     , 	Object contactNumber	) {
+    (new cards.EmergencyContactInformationCard()).verifyEmergencyContactDetails(
+        	name
+         , 	contactNumber)
+}
+
+
+def static "tabs.BillingInformationTab.verifyPatientBillingInformation"() {
+    (new tabs.BillingInformationTab()).verifyPatientBillingInformation()
+}
+
+
+def static "tabs.BillingInformationTab.getPatientBillingInformation"() {
+    (new tabs.BillingInformationTab()).getPatientBillingInformation()
 }
 
 
@@ -409,189 +809,4 @@ def static "mainPage.Mainpage.verifySubject"(
     	Object patientName	) {
     (new mainPage.Mainpage()).verifySubject(
         	patientName)
-}
-
-
-def static "webAutomation.Verifications.verifyElementPresent"(
-    	TestObject element	
-     , 	String failureDescription	
-     , 	int maxWaitTime	) {
-    (new webAutomation.Verifications()).verifyElementPresent(
-        	element
-         , 	failureDescription
-         , 	maxWaitTime)
-}
-
-
-def static "webAutomation.Verifications.verifyElementPresentAndContinueOnFailure"(
-    	TestObject element	
-     , 	String failureDescription	
-     , 	int maxWaitTime	) {
-    (new webAutomation.Verifications()).verifyElementPresentAndContinueOnFailure(
-        	element
-         , 	failureDescription
-         , 	maxWaitTime)
-}
-
-
-def static "webAutomation.Verifications.verifyElementNotPresent"(
-    	TestObject element	
-     , 	String failureDescription	
-     , 	int maxWaitTime	) {
-    (new webAutomation.Verifications()).verifyElementNotPresent(
-        	element
-         , 	failureDescription
-         , 	maxWaitTime)
-}
-
-
-def static "webAutomation.Verifications.verifyElementNotPresentAndContinuewOnFailure"(
-    	TestObject element	
-     , 	String failureDescription	
-     , 	int maxWaitTime	) {
-    (new webAutomation.Verifications()).verifyElementNotPresentAndContinuewOnFailure(
-        	element
-         , 	failureDescription
-         , 	maxWaitTime)
-}
-
-
-def static "webAutomation.Verifications.verifyTextMatch"(
-    	String actual	
-     , 	String expected	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyTextMatch(
-        	actual
-         , 	expected
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyElementVisible"(
-    	TestObject element	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyElementVisible(
-        	element
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyElementNotVisible"(
-    	TestObject element	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyElementNotVisible(
-        	element
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyElementNotVisibleAndContinuewOnFailure"(
-    	TestObject element	
-     , 	String failureDescription	
-     , 	int maxWaitTime	) {
-    (new webAutomation.Verifications()).verifyElementNotVisibleAndContinuewOnFailure(
-        	element
-         , 	failureDescription
-         , 	maxWaitTime)
-}
-
-
-def static "webAutomation.Verifications.verifyElementClickable"(
-    	TestObject element	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyElementClickable(
-        	element
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyElementNotClickable"(
-    	TestObject element	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyElementNotClickable(
-        	element
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyTextboxEditable"(
-    	TestObject element	) {
-    (new webAutomation.Verifications()).verifyTextboxEditable(
-        	element)
-}
-
-
-def static "webAutomation.Verifications.verifyElementPresentInMobile"(
-    	TestObject element	
-     , 	String failureDescription	
-     , 	int maxWaitTime	) {
-    (new webAutomation.Verifications()).verifyElementPresentInMobile(
-        	element
-         , 	failureDescription
-         , 	maxWaitTime)
-}
-
-
-def static "webAutomation.Verifications.verifyObjectsMatch"(
-    	Object actual	
-     , 	Object expected	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyObjectsMatch(
-        	actual
-         , 	expected
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyElementPresent"(
-    	TestObject element	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyElementPresent(
-        	element
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyElementPresentAndContinueOnFailure"(
-    	TestObject element	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyElementPresentAndContinueOnFailure(
-        	element
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyElementNotPresent"(
-    	TestObject element	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyElementNotPresent(
-        	element
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyElementNotPresentAndContinuewOnFailure"(
-    	TestObject element	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyElementNotPresentAndContinuewOnFailure(
-        	element
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyElementNotVisibleAndContinuewOnFailure"(
-    	TestObject element	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyElementNotVisibleAndContinuewOnFailure(
-        	element
-         , 	failureDescription)
-}
-
-
-def static "webAutomation.Verifications.verifyElementPresentInMobile"(
-    	TestObject element	
-     , 	String failureDescription	) {
-    (new webAutomation.Verifications()).verifyElementPresentInMobile(
-        	element
-         , 	failureDescription)
 }

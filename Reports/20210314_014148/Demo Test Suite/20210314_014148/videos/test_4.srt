@@ -1,0 +1,56 @@
+1
+00:00:00,096 --> 00:00:00,097
+1. patientCallerId = "2158821126"
+
+2
+00:00:00,097 --> 00:00:00,098
+5. patientCalledTo = "4698991226"
+
+3
+00:00:00,098 --> 00:00:00,099
+9. soucePatientName = "Cadence,Anna"
+
+4
+00:00:00,099 --> 00:00:00,100
+13. sourcePatientDOB = "09-09-1983"
+
+5
+00:00:00,100 --> 00:00:00,100
+17. subjectPatientName = "Cadence,Anna"
+
+6
+00:00:00,101 --> 00:00:00,101
+21. subjectPatientDOB = "09-09-1983"
+
+7
+00:00:00,102 --> 00:00:06,729
+25. mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)
+
+8
+00:00:06,729 --> 00:00:13,727
+29. mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)
+
+9
+00:00:13,727 --> 00:00:20,658
+33. mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)
+
+10
+00:00:20,658 --> 00:00:23,588
+37. cards.AppoinmentCard.clickOnGearIcon()
+
+11
+00:00:23,589 --> 00:00:24,611
+41. cards.AppoinmentCard.clickOnMoreDetails()
+
+12
+00:00:24,611 --> 00:00:26,078
+45. tabs.AppoinmentsTab.switchToNoShowsAppoinments()
+
+13
+00:00:26,078 --> 00:00:42,516
+49. tabs.AppoinmentsTab.verifyAppoinment("7/21/2020", "EMH PHX CTH DEPT", "Coordinator Phoenix, RN", "TRANSPLANT EVALUATION", "No Show", "4:30 PM")
+
+14
+00:00:42,516 --> 00:00:42,889
+1. refresh()
+

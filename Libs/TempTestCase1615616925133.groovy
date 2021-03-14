@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/ld/by909d_942xcvdsxxf133hhm0000gn/T/Katalon/Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call/20210311_135324/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/ld/by909d_942xcvdsxxf133hhm0000gn/T/Katalon/20210313_115845/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call', new TestCaseBinding('Test Cases/TC_ID_02 Verify Patient details on the Dashboard based on incoming call',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

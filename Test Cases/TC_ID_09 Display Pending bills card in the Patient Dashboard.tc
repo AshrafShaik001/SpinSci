@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ID_09 Display Pending bills card in the Patient Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e28f5eb-5517-4ce6-a297-29817781c6cf</testCaseGuid>
+</TestCaseEntity>

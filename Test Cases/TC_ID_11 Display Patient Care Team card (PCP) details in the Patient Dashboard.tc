@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ID_11 Display Patient Care Team card (PCP) details in the Patient Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96b2ebe1-d757-4be0-9ff1-7f4e88806984</testCaseGuid>
+</TestCaseEntity>

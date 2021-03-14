@@ -24,6 +24,7 @@ public class Mainpage {
 
 	@Keyword
 	def reset() {
+		actions.scrollToElement(findTestObject('Object Repository/MainPage/resetButton'));
 		actions.click(findTestObject('Object Repository/MainPage/resetButton'));
 		verifications.verifyElementPresent(findTestObject('Object Repository/MainPage/noOngoingIterationText'), "Reset is not working")
 	}
@@ -113,11 +114,11 @@ public class Mainpage {
 		def sourceCardDetails = [:]
 		sourceCardDetails.put('sourceCardTitle',actions.getText(findTestObject("Object Repository/MainPage/Cards/SourceCard/sourceTitle")));
 		sourceCardDetails.put('sourceAddress',actions.getText(findTestObject("Object Repository/MainPage/Cards/SourceCard/sourceAddress")).split(":")[1].trim());
-		//		sourceCardDetails.put('sourceEmail', actions.getText(findTestObject("Object Repository/MainPage/Cards/SourceCard/sourceEmail")).split(":")[1].trim());
+		//sourceCardDetails.put('sourceEmail', actions.getText(findTestObject("Object Repository/MainPage/Cards/SourceCard/sourceEmail")).split(":")[1].trim());
 		sourceCardDetails.put('sourceName', actions.getText(findTestObject("Object Repository/MainPage/Cards/SourceCard/SourceName")));
 		sourceCardDetails.put('sourceDOB', actions.getText(findTestObject("Object Repository/MainPage/Cards/SourceCard/sourceDOB")).split(":")[1].trim());
-		//		sourceCardDetails.put('sourceEmpi', actions.getText(findTestObject("Object Repository/MainPage/Cards/SourceCard/sourceEmpi")).split(":")[1].trim());
-		//		sourceCardDetails.put('sourceContactNumber', actions.getText(findTestObject("Object Repository/MainPage/Cards/SourceCard/sourceContactNumber")).split(":")[1].trim());
+		sourceCardDetails.put('sourceEmpi', actions.getText(findTestObject("Object Repository/MainPage/Cards/SourceCard/sourceEmpi")).split(":")[1].trim());
+		sourceCardDetails.put('sourceContactNumber', actions.getText(findTestObject("Object Repository/MainPage/Cards/SourceCard/sourceContactNumber")).split(":")[1].trim());
 		return sourceCardDetails;
 	}
 
@@ -126,11 +127,11 @@ public class Mainpage {
 		def subjectCardDetails = [:]
 		subjectCardDetails.put('subjectCardTitle',actions.getText(findTestObject("Object Repository/MainPage/Cards/SubjectCard/subjectTitle")));
 		subjectCardDetails.put('subjectAddress',actions.getText(findTestObject("Object Repository/MainPage/Cards/SubjectCard/subjectAddress")).split(":")[1].trim());
-		//		subjectCardDetails.put('subjectEmail', actions.getText(findTestObject("Object Repository/MainPage/Cards/SubjectCard/subjectEmail")).split(":")[1].trim());
+		//subjectCardDetails.put('subjectEmail', actions.getText(findTestObject("Object Repository/MainPage/Cards/SubjectCard/subjectEmail")).split(":")[1].trim());
 		subjectCardDetails.put('subjectName', actions.getText(findTestObject("Object Repository/MainPage/Cards/SubjectCard/subjectName")));
 		subjectCardDetails.put('subjectDOB', actions.getText(findTestObject("Object Repository/MainPage/Cards/SubjectCard/subjectDOB")).split(":")[1].trim());
-		//		subjectCardDetails.put('subjectEmpi', actions.getText(findTestObject("Object Repository/MainPage/Cards/SubjectCard/subjectEmpi")).split(":")[1].trim());
-		//		subjectCardDetails.put('subjectContactNumber', actions.getText(findTestObject("Object Repository/MainPage/Cards/SubjectCard/subjectContactNumber")).split(":")[1].trim());
+		subjectCardDetails.put('subjectEmpi', actions.getText(findTestObject("Object Repository/MainPage/Cards/SubjectCard/subjectEmpi")).split(":")[1].trim());
+		subjectCardDetails.put('subjectContactNumber', actions.getText(findTestObject("Object Repository/MainPage/Cards/SubjectCard/subjectContactNumber")).split(":")[1].trim());
 		return subjectCardDetails;
 	}
 }

@@ -1,0 +1,64 @@
+1
+00:00:00,084 --> 00:00:00,084
+1. patientCallerId = "6082719000"
+
+2
+00:00:00,084 --> 00:00:00,085
+5. patientCalledTo = "4698991226"
+
+3
+00:00:00,085 --> 00:00:00,085
+9. soucePatientName = "Cadence,Anna"
+
+4
+00:00:00,085 --> 00:00:00,086
+13. sourcePatientDOB = "09-09-1983"
+
+5
+00:00:00,086 --> 00:00:00,086
+17. subjectPatientName = "Cadence,Anna"
+
+6
+00:00:00,086 --> 00:00:00,087
+21. subjectPatientDOB = "09-09-1983"
+
+7
+00:00:00,087 --> 00:00:00,088
+25. bills = "16"
+
+8
+00:00:00,088 --> 00:00:00,088
+29. patientBalance = "19413.11"
+
+9
+00:00:00,088 --> 00:00:00,089
+33. insuranceBalance = "405.57"
+
+10
+00:00:00,089 --> 00:00:06,246
+37. mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)
+
+11
+00:00:06,247 --> 00:00:11,591
+41. mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)
+
+12
+00:00:11,591 --> 00:00:16,880
+45. mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)
+
+13
+00:00:16,880 --> 00:00:21,664
+49. cards.BillingInformationCard.verifyPatientBillingDetails(bills, patientBalance, insuranceBalance)
+
+14
+00:00:21,664 --> 00:00:24,025
+53. cards.BillingInformationCard.clickOnGearIcon()
+
+15
+00:00:24,025 --> 00:00:25,626
+57. cards.BillingInformationCard.clickOnMoreDetails()
+
+16
+00:00:25,626 --> 00:00:28,776
+1. refresh()
+

@@ -1,0 +1,68 @@
+1
+00:00:00,126 --> 00:00:00,127
+1. patientCallerId = "6082719000"
+
+2
+00:00:00,135 --> 00:00:00,136
+5. patientCalledTo = "4698991226"
+
+3
+00:00:00,136 --> 00:00:00,137
+9. soucePatientName = "Cadence,Anna"
+
+4
+00:00:00,137 --> 00:00:00,138
+13. sourcePatientDOB = "09-09-1983"
+
+5
+00:00:00,139 --> 00:00:00,140
+17. subjectPatientName = "Cadence,Anna"
+
+6
+00:00:00,140 --> 00:00:00,141
+21. subjectPatientDOB = "09-09-1983"
+
+7
+00:00:00,142 --> 00:00:00,143
+25. upComingReferrals = "1"
+
+8
+00:00:00,143 --> 00:00:00,144
+29. closedReferrals = "13"
+
+9
+00:00:00,144 --> 00:00:07,864
+33. mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)
+
+10
+00:00:07,865 --> 00:00:12,991
+37. mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)
+
+11
+00:00:12,991 --> 00:00:19,320
+41. mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)
+
+12
+00:00:19,320 --> 00:00:20,594
+45. cards.ReferralsCard.verifyUpcomingReferrals(upComingReferrals)
+
+13
+00:00:20,594 --> 00:00:21,917
+49. cards.ReferralsCard.verifyClosedReferrals(closedReferrals)
+
+14
+00:00:21,918 --> 00:00:24,293
+53. cards.ReferralsCard.clickOnGearIcon()
+
+15
+00:00:24,293 --> 00:00:25,882
+57. cards.ReferralsCard.clickOnMoreDetails()
+
+16
+00:00:25,882 --> 00:00:32,396
+61. tabs.ReferralsTab.verifyReferral("1150", "Phoenix, Physician, MD", "Kevin Walker", "Consultation", "Pending")
+
+17
+00:00:32,397 --> 00:00:35,335
+1. refresh()
+

@@ -24,10 +24,14 @@ def sourcePatientDOB = "09-12-1949";
 def subjectPatientName = "Cadence,Alyssa";
 def subjectPatientDOB = "03-24-1978";
 def subjectPatientlocation = "VERONA,Wisconsin,53593";
+def patientContactNumber = "(608) 271-9000";
+def subjectPatientCardTitle = "Subject is a Patient (42 year old Female)"
+
+// Search with caller ID and called to and verify source and subject
 CustomKeywords.'mainPage.Mainpage.searchWith'(patientCallerId, patientCalledTo);
 CustomKeywords.'mainPage.Mainpage.verifySource'(soucePatientName, sourcePatientDOB);
 CustomKeywords.'mainPage.Mainpage.verifySubject'(subjectPatientName, subjectPatientDOB, subjectPatientlocation);
-def soureCardDetails = CustomKeywords.'mainPage.Mainpage.getSourceCardDetails'();
-println soureCardDetails
-def subjectCardDetails = CustomKeywords.'mainPage.Mainpage.getSubjectCardDetails'();
-println subjectCardDetails
+
+// Verify patient details and all cards of patient
+CustomKeywords.'mainPage.Patient.verifyPatientDetails'(subjectPatientCardTitle, subjectPatientName, "1978-03-24", patientContactNumber, subjectPatientlocation);
+

@@ -1,0 +1,56 @@
+1
+00:00:00,088 --> 00:00:00,089
+1. patientCallerId = "6082719000"
+
+2
+00:00:00,090 --> 00:00:00,090
+5. patientCalledTo = "4698991226"
+
+3
+00:00:00,091 --> 00:00:00,091
+9. soucePatientName = "Cadence,Anna"
+
+4
+00:00:00,091 --> 00:00:00,092
+13. sourcePatientDOB = "09-09-1983"
+
+5
+00:00:00,092 --> 00:00:00,093
+17. subjectPatientName = "Cadence,Anna"
+
+6
+00:00:00,093 --> 00:00:00,094
+21. subjectPatientDOB = "09-09-1983"
+
+7
+00:00:00,094 --> 00:00:00,094
+25. pcpName = "Family Medicine, Physician, MD"
+
+8
+00:00:00,095 --> 00:00:00,095
+29. pcpCenter = ""
+
+9
+00:00:00,095 --> 00:00:00,096
+33. pcpDept = "Cardio"
+
+10
+00:00:00,096 --> 00:00:06,611
+37. mainPage.Mainpage.searchWith(patientCallerId, patientCalledTo)
+
+11
+00:00:06,612 --> 00:00:12,776
+41. mainPage.Mainpage.verifySource(soucePatientName, sourcePatientDOB)
+
+12
+00:00:12,776 --> 00:00:20,391
+45. mainPage.Mainpage.verifySubject(subjectPatientName, subjectPatientDOB)
+
+13
+00:00:20,392 --> 00:00:30,483
+49. cards.PatientCareTeamCard.verifyPcpDetails(pcpName, pcpCenter, pcpDept)
+
+14
+00:00:30,483 --> 00:00:30,777
+1. refresh()
+
